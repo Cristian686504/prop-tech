@@ -1,4 +1,4 @@
-Historia de Usuarios
+Historias de Usuarios
 
 HU001 - Título
 
