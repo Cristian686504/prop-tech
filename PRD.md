@@ -37,8 +37,8 @@ NUESTRO PRODUCTO automatiza la evaluación financiera permitiendo decisiones seg
 | Descripción | Impacto | Probabilidad | Riesgo | Mitigación |
 |------------|:---------:|:-----------:|:-------:|-----------|
 | Escasez de personal: el equipo cuenta con 2 integrantes, 1QA y 1DEV    | 3   | 3 | 9 | Solicitar la integración de más personas antes del próximo sprint |
-| Estimaciones inexactas: el equipo no cuenta con experienca en este tipo de proyecto  | 3  | 3  | 9 | Capacitar a los miembros del equipo |
-| Cambios en el negocio hacen que la plataforma quede obsoleta     | 3    | 1  | 3  | Comunicación constante y efectiva con el cliente   |
+| Estimaciones inexactas: el equipo no cuenta con experienca en este tipo de proyecto  | 3  | 3  | 9 | Estimar en base a story points |
+| Retrasos: los integrantes del equipo son de diferentes países y hay diferencia horaria     | 3    | 2  | 6  | Definir horarios de trabajo coincidientes  |
 
 # Riesgos Técnicos (Producto)
 
