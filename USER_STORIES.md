@@ -131,4 +131,30 @@
 **Entonces** se registra la solicitud con estado *pendiente* y se muestra un mensaje de confirmación de aplicación exitosa
 
 ### Story Points: Fibonacci
+
+
 ---
+
+# EP03 - Evaluación Financiera
+
+## HU007 - Evaluar Perfil Financiero del Arrendatario
+
+
+**Supuestos**  
+- **Nivel de riesgo bajo**: score crediticio >= 700, ingresos mensuales >= 3 veces el precio de alquiler y situación laboral empleado o independiente estable.  
+- **Nivel de riesgo medio**: score crediticio entre 600 y 699, ingresos mensuales >= 2 veces el precio de alquiler y situación laboral empleado o independiente estable.  
+- **Nivel de riesgo alto**: score crediticio < 600, ingresos mensuales < 2 veces el precio de alquiler o situación laboral desempleado o independiente inestable.    
+
+---
+**Como** arrendador(propietario)
+**Quiero** que el sistema evalúe automáticamente el perfil financiero del arrendatario(score crediticio, ingresos mensuales y situación laboral) al recibir una solicitud de alquiler
+**Para** conocer el nivel de riesgo del inquilino y tomar decisiones informadas sobre el alquiler de mi propiedad.
+
+### Criterios de aceptación
+#### CA001 Escenario: Perfil financiero con riesgo bajo
+
+**Dado** que el arrendatario ha enviado una solicitud para alquilar una propiedad **Y**  tiene un score crediticio >= 700, ingresos mensuales >= 3 veces el precio de alquiler y situación laboral empleado o independiente estable.
+**Cuando** el sistema evalúa el perfil financiero del arrendatario
+**Entonces** el perfil se clasifica como riesgo *bajo*
+
+### Story Points: Fibonacci
