@@ -37,8 +37,8 @@ NUESTRO PRODUCTO automatiza la evaluación financiera permitiendo decisiones seg
 | Descripción | Impacto | Probabilidad | Riesgo | Mitigación |
 |------------|:---------:|:-----------:|:-------:|-----------|
 | Los usuarios no usan la plataforma    | 3   | 1 | 3 | Asegurar la calidad |
-| La competencia saca una plataforma similar o mejor    | 1  | 3  | 3 | Entender de forma profunda el problema de los usuarios  |
-| Dato 1     | Dato 2    | Dato 3      | Dato 3  | Dato 3    |
+| La competencia saca una plataforma similar o mejor    | 1  | 3  | 3 | Entender en profundidad el problema de los usuarios  |
+| Cambios en el negocio hacen que la plataforma quede obsoleta     | 3    | 1  | 3  | Comunicación constante y efectiva con el cliente   |
 | Texto      | Más texto | Final       | Final   | Final     |
 
 # Riesgos Técnicos
