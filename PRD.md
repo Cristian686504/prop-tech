@@ -17,11 +17,11 @@ El flujo de alquiler tendrá una duración de menos de 1 día
 # Alcance del MVP
 
 ## IN SCOPE
- - Gestión de usuarios con rol de arrendatario y arrendador
- - Gestión de propiedades: publicar y alquilar propiedades
- - Evaluar el perfíl financiero
- - Cálculo dinámico del depósito de garantía en base al score crediticio
- - Generación de contrato
+ - Registro e inicio de sesión para usuarios con rol de arrendador y arrendatario
+ - El arrendador(propietario) podrá publicar propiedades y el arrendatario (inquilino) podrá visualizar las propiedades disponibles para alquilar
+ - Evaluación del perfil financiero del arrendatario(score crediticio, ingresos mensuales y situación laboral)
+ - Cálculo dinámico del depósito de garantía(1 a 3 meses) en base al score crediticio del arrendatario
+ - Generación de contrato de arrendamiento en PDF con estado(aprobado, rechazado, pendiente)
  
 ## OUT SCOPE
  - Firma digital de contrato
