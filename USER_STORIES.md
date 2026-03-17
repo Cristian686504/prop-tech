@@ -153,7 +153,8 @@
 ### Criterios de aceptación
 #### CA001 Escenario: Perfil financiero con riesgo bajo
 
-**Dado** que el arrendatario ha enviado una solicitud para alquilar una propiedad **Y**  tiene un score crediticio >= 700, ingresos mensuales >= 3 veces el precio de alquiler y situación laboral empleado o independiente estable.
+**Dado** que el arrendatario ha enviado una solicitud para alquilar una propiedad  
+**Y**  tiene un score crediticio >= 700, ingresos mensuales >= 3 veces el precio de alquiler y situación laboral empleado o independiente estable.  
 **Cuando** el sistema evalúa el perfil financiero del arrendatario
 **Entonces** el perfil se clasifica como riesgo *bajo*
 
@@ -170,9 +171,24 @@
 
 #### CA001 Escenario: Cálculo de depósito de garantía para perfil de riesgo bajo
 
-**Dado** que el arrendatario tiene un score crediticio >= 700
-**Cuando** el sistema calcula el depósito de garantía para una solicitud de alquiler
-**Entonces** el depósito de garantía se establece en 1 mes de alquiler
+**Dado** que el arrendatario tiene un score crediticio >= 700  
+**Cuando** el sistema calcula el depósito de garantía para una solicitud de alquiler  
+**Entonces** el depósito de garantía se establece en 1 mes de alquiler  
+
+### Story Points: Fibonacci
+---
+
+## HU009 - Generación de Contrato de Arrendamiento
+
+**Como** arrendador(propietario)
+**Quiero** que el sistema genere automáticamente un contrato de arrendamiento en formato PDF con los datos del arrendatario, la propiedad, el depósito de garantía y el estado del contraro.
+**Para** formalizar el acuerdo de alquiler de forma rápida y automatizada.
+
+### Criterios de aceptación
+#### CA001 Escenario: Generación exitosa de contrato de arrendamiento
+**Dado** que la evaluación financiera del arrendatario y el cálculo del depósito se completaron exitosamente.  
+**Cuando** el sistema genera el contrato de arrendamiento  
+**Entonces** se crea un archivo PDF con los detalles del contrato y se muestra un mensaje de confirmación de generación exitosa.
 
 ### Story Points: Fibonacci
 ---
