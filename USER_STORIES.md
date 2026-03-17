@@ -83,7 +83,7 @@
 
 ### Story Points: Fibonacci
 
-
+---
 # EP02 - Gestión de Propiedades
 
 ## HU004 - Publicar Propiedad
@@ -101,7 +101,7 @@
 **Entonces** se crea la propiedad y se muestra un mensaje de confirmación de publicación exitosa
 
 ### Story Points: Fibonacci
-
+---
 ## HU005 - Visualizar Propiedades Disponibles
 
 **Como** arrendatario(inquilino)
@@ -117,3 +117,18 @@
 **Entonces** se muestran las propiedades con sus detalles correspondientes
 
 ### Story Points: Fibonacci
+---
+## HU006 - Aplicar para Alquilar Propiedad
+**Como** arrendatario(inquilino)
+**Quiero** solicitar el alquiler de una propiedad disponible en la plataforma
+**Para** iniciar el proceso de evaluación financiera y poder alquilar la propiedad.
+
+### Criterios de aceptación
+#### CA001 Escenario: Aplicación exitosa para alquilar propiedad
+
+**Dado** que el arrendatario ha seleccionado una propiedad disponible  
+**Cuando** envía la solicitud para alquilar la propiedad  
+**Entonces** se registra la solicitud con estado *pendiente* y se muestra un mensaje de confirmación de aplicación exitosa
+
+### Story Points: Fibonacci
+---
