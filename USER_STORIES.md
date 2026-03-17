@@ -65,3 +65,21 @@
 ***Entonces*** muestra un mensaje de error indicando que los datos ingresados son inválidos y no se crea la cuenta
 
 ### Story Points: Fibonacci
+---
+
+## HU003 - Inicio de Sesión
+
+***Como*** usuario(arrendador o arrendatario)
+***Quiero*** iniciar sesión en la plataforma con mi correo electrónico y contraseña
+***Para*** poder acceder a las funcionalidades de la plataforma correspondientes según mi rol
+
+### Criterios de aceptación
+
+#### CA001 Escenario: Inicio de sesión exitoso
+
+***Dado*** que el usuario ingresa un correo electrónico y contraseña válidos registrados en el sistema  
+***Cuando*** envía el formulario de inicio de sesión  
+***Entonces*** se permite el acceso y dirige al usuario a la pantalla principal
+
+### Story Points: Fibonacci
+
