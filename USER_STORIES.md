@@ -1,6 +1,6 @@
 # Historias de Usuarios
 
-## EP01 - Gestión de Usuarios
+# EP01 - Gestión de Usuarios
 
 ## HU001 - Registro de Arrendador
 
@@ -83,3 +83,19 @@
 
 ### Story Points: Fibonacci
 
+
+# EP02 - Gestión de Propiedades
+
+## HU004 - Publicar Propiedad
+
+***Como*** arrendador(propietario)
+***Quiero*** publicar una propiedad en la plataforma con detalles como título, dirección, descripción, precio de alquiler, imágenes y características.
+***Para*** que los arrendatarios puedan visualizarla y aplicar para alquilarla.
+
+### Criterios de aceptación
+
+#### CA001 Escenario: Publicación exitosa de la propiedad
+
+***Dado*** que el arrendador ingresa todos los detalles requeridos de la propiedad de manera válida  
+***Cuando*** envía el formulario de publicación
+***Entonces*** se crea la propiedad y se muestra un mensaje de confirmación de publicación exitosa
