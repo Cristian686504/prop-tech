@@ -97,7 +97,7 @@
 #### CA001 Escenario: Publicación exitosa de la propiedad
 
 **Dado** que el arrendador ingresa todos los detalles requeridos de la propiedad de manera válida  
-**Cuando** envía el formulario de publicación
+**Cuando** envía el formulario de publicación  
 **Entonces** se crea la propiedad y se muestra un mensaje de confirmación de publicación exitosa
 
 ### Story Points: Fibonacci
@@ -113,7 +113,7 @@
 #### CA001 Escenario: Visualización de propiedades disponibles
 
 **Dado** que existen propiedades publicadas en la plataforma  
-**Cuando** el arrendatario accede a la sección de propiedades disponibles
+**Cuando** el arrendatario accede a la sección de propiedades disponibles  
 **Entonces** se muestran las propiedades con sus detalles correspondientes
 
 ### Story Points: Fibonacci
