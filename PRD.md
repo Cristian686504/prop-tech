@@ -32,22 +32,18 @@ NUESTRO PRODUCTO automatiza la evaluación financiera permitiendo decisiones seg
  - Soporte a clientes
  - Filtro de propiedades
 
-# Riesgos de Negocio
+# Riesgos de Negocio (Proyecto)
 
 | Descripción | Impacto | Probabilidad | Riesgo | Mitigación |
 |------------|:---------:|:-----------:|:-------:|-----------|
-| Los usuarios no usan la plataforma    | 3   | 1 | 3 | Asegurar la calidad |
+| Escasez de personal: el equipo cuenta con 2 integrantes, 1QA y 1DEV    | 3   | 3 | 9 | Solicitar la integración de más personas antes del próximo sprint |
+| Estimaciones inexactas: el equipo no cuenta con experienca en este tipo de proyecto  | 3  | 3  | 9 | Capacitar a los miembros del equipo |
+| Cambios en el negocio hacen que la plataforma quede obsoleta     | 3    | 1  | 3  | Comunicación constante y efectiva con el cliente   |
+
+# Riesgos Técnicos (Producto)
+
+| Riesgo | Impacto | Probabilidad | Riesgo | Mitigación |
+|------------|:---------:|:-----------:|:-------:|-----------|
+| El responsive puede romper la UI    | 2   | 2 | 4 | Probar la UI en distintas resoluciones |
 | La competencia saca una plataforma similar o mejor    | 1  | 3  | 3 | Entender en profundidad el problema de los usuarios  |
 | Cambios en el negocio hacen que la plataforma quede obsoleta     | 3    | 1  | 3  | Comunicación constante y efectiva con el cliente   |
-| Texto      | Más texto | Final       | Final   | Final     |
-
-# Riesgos Técnicos
-
-| Riesgo | Encabezado 2 | Encabezado 3 |
-| ------------ | ------------ | ------------ |
-| Dato A1 | Dato A2 | Dato A3 |
-| Dato B1 | Dato B2 | Dato B3 |
-| Izquierda | Centrado | Derecha |
-| :--- | :---: | ---: |
-| Dato 1 | Dato 2 | Dato 3 |
-| Texto | Más texto | Final |
