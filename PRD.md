@@ -34,4 +34,20 @@ NUESTRO PRODUCTO automatiza la evaluación financiera permitiendo decisiones seg
 
 # Riesgos de Negocio
 
+| Descripción | Impacto | Probabilidad | Riesgo | Mitigación |
+|------------|:---------:|:-----------:|:-------:|-----------|
+| Los usuarios no usan la plataforma    | 3   | 1 | 3 | Asegurar la calidad |
+| La competencia saca una plataforma similar o mejor    | 1  | 3  | 3 | Entender de forma profunda el problema de los usuarios  |
+| Dato 1     | Dato 2    | Dato 3      | Dato 3  | Dato 3    |
+| Texto      | Más texto | Final       | Final   | Final     |
+
 # Riesgos Técnicos
+
+| Riesgo | Encabezado 2 | Encabezado 3 |
+| ------------ | ------------ | ------------ |
+| Dato A1 | Dato A2 | Dato A3 |
+| Dato B1 | Dato B2 | Dato B3 |
+| Izquierda | Centrado | Derecha |
+| :--- | :---: | ---: |
+| Dato 1 | Dato 2 | Dato 3 |
+| Texto | Más texto | Final |
