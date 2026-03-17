@@ -135,7 +135,7 @@
 
 ---
 
-# EP03 - Evaluación Financiera
+# EP03 - Evaluación Financiera y Contratación
 
 ## HU007 - Evaluar Perfil Financiero del Arrendatario
 
@@ -158,3 +158,21 @@
 **Entonces** el perfil se clasifica como riesgo *bajo*
 
 ### Story Points: Fibonacci
+---
+
+ ## HU008 - Cálculo Dinámico del Depósito de Garantía
+
+**Como** arrendador(propietario)
+**Quiero** que el sistema calcule dinámicamente el depósito de garantía (1 a 3 meses) en base al score crediticio del arrendatario cuando aplique para alquilar mi propiedad 
+**Para** proteger mi propiedad y reducir el riesgo financiero del inquilino.
+
+### Criterios de aceptación
+
+#### CA001 Escenario: Cálculo de depósito de garantía para perfil de riesgo bajo
+
+**Dado** que el arrendatario tiene un score crediticio >= 700
+**Cuando** el sistema calcula el depósito de garantía para una solicitud de alquiler
+**Entonces** el depósito de garantía se establece en 1 mes de alquiler
+
+### Story Points: Fibonacci
+---
