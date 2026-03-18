@@ -87,7 +87,7 @@
 **Cuando** envía el formulario de inicio de sesión  
 **Entonces** se deniega el acceso con un mensaje que diga que los campos no pueden ser vacíos
 
-#### CA003 Escenario: Inicio de sesión con campos invalidos
+#### CA003 Escenario: Inicio de sesión con credenciales invalidas
 
 **Dado** que el usuario ingresa un correo electrónico y/o contraseña inválidos
 **Cuando** envía el formulario de inicio de sesión  
