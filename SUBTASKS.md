@@ -123,3 +123,14 @@
 |----|----------------------|
 | T003 | Implementar manejo de errores código HTTP y mensajes de error claros |
 | T004 | Implementar paginación para la lista de propiedades |
+
+### Perspectiva QA
+#### QA-F (QA Funcional)
+| id | Descripción de tarea |
+|----|----------------------|
+| T001 | Descripicón de tarea |
+
+#### QA-NF (QA No Funcional)
+| id | Descripción de tarea |
+|----|----------------------|
+| T002 | Descripicón de tarea |
