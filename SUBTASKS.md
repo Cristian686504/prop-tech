@@ -47,3 +47,12 @@
 | T006 | Implementar manejo de errores código HTTP y mensajes de error claros |
 | T007 | Implementar hashing de contraseña para almacenamiento seguro |
 
+### Perspectiva QA
+#### QA-F (QA Funcional)
+| id | Descripción de tarea |
+|----|----------------------|
+| T003 | Descripicón de tarea |
+
+#### QA-NF (QA No Funcional)
+| id | Descripción de tarea |
+|----|----------------------|
