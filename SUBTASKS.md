@@ -96,3 +96,5 @@
 #### DEV-NF (Desarrollo No Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
+| T004 | Implementar validaciones de entrada(formato de datos, campos requeridos) |
+| T005 | Implementar manejo de errores código HTTP y mensajes de error claros |
