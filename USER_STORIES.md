@@ -118,6 +118,12 @@
 **Cuando** envía el formulario de publicación  
 **Entonces** no se crea la propiedad y se muestra un mensaje que indique que los campos no pueden ser vacíos
 
+#### CA003 Escenario: Publicación con un conjunto de imágenes que pesan más de 250MB
+
+**Dado** que el arrendador sube un conjunto de imágenes que pesan más de 250MB
+**Cuando** envía el formulario de publicación  
+**Entonces** no se crea la propiedad y se muestra un mensaje que indique que el conjunto de imágenes no puede pesar más de 250MB
+
 ### Story Points: Fibonacci
 ---
 ## HU005 - Visualizar Propiedades Disponibles
