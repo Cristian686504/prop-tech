@@ -84,3 +84,15 @@
 |----|----------------------|
 | T002 | Descripicón de tarea |
 
+## HU004 - Publicar Propiedad
+### Perspectiva Dev
+#### DEV-F (Desarrollo Funcional)
+| id | Descripción de tarea |
+|----|----------------------|
+| T001 | Crear tabla propiedades en BD con campos: id, titulo, direccion, descripcion, precio_alquiler, imagenes, fecha_publicacion, arrendador_id, fecha_actualizacion |
+| T002 | Crear modelo/entidad Propiedad y DTOs |
+| T003 | Implementar endpoint POST /api/properties para publicar una propiedad (solo accesible por arrendadores) |
+
+#### DEV-NF (Desarrollo No Funcional)
+| id | Descripción de tarea |
+|----|----------------------|
