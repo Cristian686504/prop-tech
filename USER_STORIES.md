@@ -89,7 +89,7 @@
 ## HU004 - Publicar Propiedad
 
 **Como** arrendador(propietario)
-**Quiero** publicar una propiedad en la plataforma con detalles como título, dirección, descripción, precio de alquiler, imágenes y características.
+**Quiero** publicar una propiedad en la plataforma con detalles como título, dirección, descripción, precio de alquiler e imágenes
 **Para** que los arrendatarios puedan visualizarla y aplicar para alquilarla.
 
 ### Criterios de aceptación
