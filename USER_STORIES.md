@@ -208,6 +208,11 @@
 **Cuando** envía la solicitud para alquilar la propiedad  
 **Entonces** no se registra la solicitud y se muestra un mensaje que dice que la propiedad no está disponible
 
+#### CA003 Escenario: Un usuario no autenticado envía la solicitud a una propiedad
+
+**Dado** que el arrendatario ha seleccionado una propiedad
+**Cuando** envía la solicitud para alquilar la propiedad  
+**Entonces** no se registra la solicitud y se le redirige a la página de inicio de sesión
 ### Story Points: Fibonacci
 
 
