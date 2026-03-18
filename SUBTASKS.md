@@ -66,3 +66,21 @@
 | T001 | Implementar endpoint POST /api/login con validación de credenciales |
 | T002 | Implementar generación de token JWT para autenticación |
 | T003 | Implementar redirección con datos de usuario y rol |
+
+#### DEV-NF (Desarrollo No Funcional)
+| id | Descripción de tarea |
+|----|----------------------|
+| T004 | Implementar manejo de errores código HTTP y mensajes de error claros |
+| T005 | Implementar comparación de contraseñas con hashing |
+
+### Perspectiva QA
+#### QA-F (QA Funcional)
+| id | Descripción de tarea |
+|----|----------------------|
+| T001 | Descripicón de tarea |
+
+#### QA-NF (QA No Funcional)
+| id | Descripción de tarea |
+|----|----------------------|
+| T002 | Descripicón de tarea |
+
