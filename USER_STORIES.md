@@ -142,6 +142,12 @@
 **Cuando** envía el formulario de publicación  
 **Entonces** no se crea la propiedad y se muestra un mensaje que indique que la descripción no puede ser mayor a 2000 carácteres
 
+#### CA007 Escenario: Publicación con un precio que no sea un número
+
+**Dado** que el arrendador ingresa en el precio un valor distinto a un número
+**Cuando** envía el formulario de publicación  
+**Entonces** no se crea la propiedad y se muestra un mensaje que indique que el precio debe ser un valor numérico
+
 ### Story Points: Fibonacci
 ---
 ## HU005 - Visualizar Propiedades Disponibles
