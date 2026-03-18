@@ -45,5 +45,5 @@ NUESTRO PRODUCTO automatiza la evaluación financiera permitiendo decisiones seg
 | Riesgo | Impacto | Probabilidad | Riesgo | Mitigación |
 |------------|:---------:|:-----------:|:-------:|-----------|
 | El responsive puede romper la UI    | 2   | 2 | 4 | Probar la UI en distintas resoluciones |
-| La competencia saca una plataforma similar o mejor    | 1  | 3  | 3 | Entender en profundidad el problema de los usuarios  |
+| Al generarse el contrato puede contener malformaciones de datos    | 3  | 1  | 3 | Entender en profundidad el problema de los usuarios  |
 | Cambios en el negocio hacen que la plataforma quede obsoleta     | 3    | 1  | 3  | Comunicación constante y efectiva con el cliente   |
