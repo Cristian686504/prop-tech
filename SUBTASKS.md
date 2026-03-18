@@ -117,3 +117,9 @@
 |----|----------------------|
 | T001 | Implementar endpoint GET /api/properties para listar propiedades disponibles |
 | T002 | Componente frontend para mostrar lista de propiedades con detalles (titulo, direccion, descripcion, precio_alquiler, imagenes) |
+
+#### DEV-NF (Desarrollo No Funcional)
+| id | Descripción de tarea |
+|----|----------------------|
+| T003 | Implementar manejo de errores código HTTP y mensajes de error claros |
+| T004 | Implementar paginación para la lista de propiedades |
