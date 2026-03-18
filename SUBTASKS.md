@@ -109,3 +109,11 @@
 | id | Descripción de tarea |
 |----|----------------------|
 | T002 | Descripicón de tarea |
+
+## HU005 - Visualizar Propiedades Disponibles
+### Perspectiva Dev
+#### DEV-F (Desarrollo Funcional)
+| id | Descripción de tarea |
+|----|----------------------|
+| T001 | Implementar endpoint GET /api/properties para listar propiedades disponibles |
+| T002 | Componente frontend para mostrar lista de propiedades con detalles (titulo, direccion, descripcion, precio_alquiler, imagenes) |
