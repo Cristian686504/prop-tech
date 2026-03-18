@@ -124,6 +124,18 @@
 **Cuando** envía el formulario de publicación  
 **Entonces** no se crea la propiedad y se muestra un mensaje que indique que el conjunto de imágenes no puede pesar más de 250MB
 
+#### CA004 Escenario: Publicación con un título mayor a 255 carácteres
+
+**Dado** que el arrendador ingresa un título con más de 255 carácteres
+**Cuando** envía el formulario de publicación  
+**Entonces** no se crea la propiedad y se muestra un mensaje que indique que el título no puede ser mayor a 255 carácteres
+
+#### CA004 Escenario: Publicación con un descripción mayor a 255 carácteres
+
+**Dado** que el arrendador ingresa una dirección con más de 255 carácteres
+**Cuando** envía el formulario de publicación  
+**Entonces** no se crea la propiedad y se muestra un mensaje que indique que la dirección no puede ser mayor a 255 carácteres
+
 ### Story Points: Fibonacci
 ---
 ## HU005 - Visualizar Propiedades Disponibles
