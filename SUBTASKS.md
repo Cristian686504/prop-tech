@@ -98,3 +98,14 @@
 |----|----------------------|
 | T004 | Implementar validaciones de entrada(formato de datos, campos requeridos) |
 | T005 | Implementar manejo de errores código HTTP y mensajes de error claros |
+
+### Perspectiva QA
+#### QA-F (QA Funcional)
+| id | Descripción de tarea |
+|----|----------------------|
+| T001 | Descripicón de tarea |
+
+#### QA-NF (QA No Funcional)
+| id | Descripción de tarea |
+|----|----------------------|
+| T002 | Descripicón de tarea |
