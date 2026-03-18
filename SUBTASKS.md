@@ -56,3 +56,13 @@
 #### QA-NF (QA No Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
+| T004 | Descripicón de tarea |
+
+## HU003 - Inicio de Sesión
+### Perspectiva Dev
+#### DEV-F (Desarrollo Funcional)
+| id | Descripción de tarea |
+|----|----------------------|
+| T001 | Implementar endpoint POST /api/login con validación de credenciales |
+| T002 | Implementar generación de token JWT para autenticación |
+| T003 | Implementar redirección con datos de usuario y rol |
