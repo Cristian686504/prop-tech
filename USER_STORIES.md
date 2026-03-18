@@ -81,6 +81,12 @@
 **Cuando** envía el formulario de inicio de sesión  
 **Entonces** se permite el acceso y dirige al usuario a la pantalla principal
 
+#### CA002 Escenario: Inicio de sesión con campos vacíos
+
+**Dado** que el usuario ingresa un correo electrónico y/o contraseña vacíos
+**Cuando** envía el formulario de inicio de sesión  
+**Entonces** se deniega el acceso con un mensaje que diga que los campos no pueden ser vacíos
+
 ### Story Points: Fibonacci
 
 ---
