@@ -7,7 +7,10 @@
 #### DEV-F (Desarrollo Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T001 | Descripicón de tarea |
+| T001 | Crear tabla *usuarios* en BD con campos: id, nombre, correo, contraseña(Hash), teléfono, rol, fecha de creación |
+| T002 | Crear modelo/entidad Usuario y DTOs |
+| T003 | Implementar endpoint POST /api/register |
+| T004 | Implementar validaciones de datos y manejo de errores en el endpoint de registro |
 
 #### DEV-NF (Desarrollo No Funcional)
 | id | Descripción de tarea |
