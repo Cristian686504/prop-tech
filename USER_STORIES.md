@@ -154,7 +154,7 @@
 **Cuando** envía el formulario de publicación  
 **Entonces** no se crea la propiedad y redirige al usuario a la pagina de inicio de sesión
 
-#### CA008 Escenario: Usuario con un rol distinto a arrendador intenta crear una publicación
+#### CA009 Escenario: Usuario con un rol distinto a arrendador intenta crear una publicación
 
 **Dado** un usuario con un rol distinto a arrendador
 **Cuando** envía el formulario de publicación  
@@ -175,6 +175,12 @@
 **Dado** que existen propiedades publicadas en la plataforma  
 **Cuando** el arrendatario accede a la sección de propiedades disponibles  
 **Entonces** se muestran las propiedades con sus detalles correspondientes
+
+#### CA002 Escenario: No hay propiedades disponibles para visualizar
+
+**Dado** que no existen propiedades publicadas en la plataforma  
+**Cuando** el arrendatario accede a la sección de propiedades disponibles  
+**Entonces** se muestra un mensaje de que actualmente no hay propiedades disponibles
 
 ### Story Points: Fibonacci
 ---
