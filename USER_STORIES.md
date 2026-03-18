@@ -105,7 +105,7 @@
 ## HU005 - Visualizar Propiedades Disponibles
 
 **Como** arrendatario(inquilino)
-**Quiero** visualizar las propiedades disponibles para alquilar en la plataforma con sus detalles como título, dirección, descripción, precio de alquiler, imágenes y características.
+**Quiero** visualizar las propiedades disponibles para alquilar en la plataforma con sus detalles como título, dirección, descripción, precio de alquiler e imágenes.
 **Para** poder elegir una propiedad que se ajuste a mis necesidades y aplicar para alquilarla.
 
 ### Criterios de aceptación
