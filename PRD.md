@@ -42,8 +42,8 @@ NUESTRO PRODUCTO automatiza la evaluación financiera permitiendo decisiones seg
 
 # Riesgos Técnicos (Producto)
 
-| Riesgo | Impacto | Probabilidad | Riesgo | Mitigación |
+| Descripción | Impacto | Probabilidad | Riesgo | Mitigación |
 |------------|:---------:|:-----------:|:-------:|-----------|
 | El responsive puede romper la UI    | 2   | 2 | 4 | Probar la UI en distintas resoluciones |
-| Al generarse el contrato puede contener malformaciones de datos    | 3  | 1  | 3 | Entender en profundidad el problema de los usuarios  |
+| Dos usuarios arrendatarios alquilan la misma propiedad al mismo tiempo generando 2 contratos   | 3  | 3  | 9 | Agregar controles de acceso simultaneo en la base de datos  |
 | Cambios en el negocio hacen que la plataforma quede obsoleta     | 3    | 1  | 3  | Comunicación constante y efectiva con el cliente   |
