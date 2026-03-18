@@ -202,6 +202,12 @@
 **Cuando** envía la solicitud para alquilar la propiedad  
 **Entonces** se registra la solicitud con estado *pendiente* y se muestra un mensaje de confirmación de aplicación exitosa
 
+#### CA002 Escenario: El usuario envía la solicitud a una propiedad no disponible
+
+**Dado** que el arrendatario ha seleccionado una propiedad no disponible  
+**Cuando** envía la solicitud para alquilar la propiedad  
+**Entonces** no se registra la solicitud y se muestra un mensaje que dice que la propiedad no está disponible
+
 ### Story Points: Fibonacci
 
 
