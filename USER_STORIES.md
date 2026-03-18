@@ -112,6 +112,12 @@
 **Cuando** envía el formulario de publicación  
 **Entonces** se crea la propiedad y se muestra un mensaje de confirmación de publicación exitosa
 
+#### CA002 Escenario: Publicación con campos vacíos
+
+**Dado** que el arrendador no ingresa algun detalle requerido de la propiedad 
+**Cuando** envía el formulario de publicación  
+**Entonces** no se crea la propiedad y se muestra un mensaje que indique que los campos no pueden ser vacíos
+
 ### Story Points: Fibonacci
 ---
 ## HU005 - Visualizar Propiedades Disponibles
