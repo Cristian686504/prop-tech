@@ -148,6 +148,12 @@
 **Cuando** envía el formulario de publicación  
 **Entonces** no se crea la propiedad y se muestra un mensaje que indique que el precio debe ser un valor numérico
 
+#### CA008 Escenario: Usuario no autenticado intenta crear una publicación
+
+**Dado** un usuario no autenticado
+**Cuando** envía el formulario de publicación  
+**Entonces** no se crea la propiedad y se muestra un mensaje que indique que tiene el acceso denegado
+
 ### Story Points: Fibonacci
 ---
 ## HU005 - Visualizar Propiedades Disponibles
