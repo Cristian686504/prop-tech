@@ -1,4 +1,4 @@
-HU001 - Título
+HU001 - Registro de Arrendador
 
 Perspectiva Dev
 T001: Descripicón de tarea
