@@ -46,4 +46,4 @@ NUESTRO PRODUCTO automatiza la evaluación financiera permitiendo decisiones seg
 |------------|:---------:|:-----------:|:-------:|-----------|
 | El responsive puede romper la UI    | 2   | 2 | 4 | Probar la UI en distintas resoluciones |
 | Dos usuarios arrendatarios alquilan la misma propiedad al mismo tiempo generando 2 contratos   | 3  | 3  | 9 | Agregar controles de acceso simultaneo en la base de datos  |
-| Cambios en el negocio hacen que la plataforma quede obsoleta     | 3    | 1  | 3  | Comunicación constante y efectiva con el cliente   |
+| Se podrían acceder a los contratos por URL sin verificar sesión    | 3    | 1  | 3  | Agregar restricción a la URL de los contratos  |
