@@ -182,6 +182,12 @@
 **Cuando** el arrendatario accede a la sección de propiedades disponibles  
 **Entonces** se muestra un mensaje de que actualmente no hay propiedades disponibles
 
+#### CA003 Escenario: Usuario no autenticado quiere ver las propiedades disponibles
+
+**Dado** un usuario no autenticado
+**Cuando** accede a la sección de propiedades disponibles  
+**Entonces** se le redirige a la página de inicio de sesión
+
 ### Story Points: Fibonacci
 ---
 ## HU006 - Aplicar para Alquilar Propiedad
