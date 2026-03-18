@@ -40,3 +40,10 @@
 | T003 | Implementar endpoint POST /api/register |
 | T004 | Implementar validaciones de datos y manejo de errores en el endpoint de registro |
 
+#### DEV-NF (Desarrollo No Funcional)
+| id | Descripción de tarea |
+|----|----------------------|
+| T005 | Implementar validaciones de entrada(formato de correo, longitud mínima de contraseña, formato de teléfono, campos requeridos) |
+| T006 | Implementar manejo de errores código HTTP y mensajes de error claros |
+| T007 | Implementar hashing de contraseña para almacenamiento seguro |
+
