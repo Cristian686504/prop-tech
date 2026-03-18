@@ -130,11 +130,17 @@
 **Cuando** envía el formulario de publicación  
 **Entonces** no se crea la propiedad y se muestra un mensaje que indique que el título no puede ser mayor a 255 carácteres
 
-#### CA004 Escenario: Publicación con un descripción mayor a 255 carácteres
+#### CA005 Escenario: Publicación con un dirección mayor a 255 carácteres
 
 **Dado** que el arrendador ingresa una dirección con más de 255 carácteres
 **Cuando** envía el formulario de publicación  
 **Entonces** no se crea la propiedad y se muestra un mensaje que indique que la dirección no puede ser mayor a 255 carácteres
+
+#### CA006 Escenario: Publicación con un descripción mayor a 2000 carácteres
+
+**Dado** que el arrendador ingresa una descripción con más de 2000 carácteres
+**Cuando** envía el formulario de publicación  
+**Entonces** no se crea la propiedad y se muestra un mensaje que indique que la descripción no puede ser mayor a 2000 carácteres
 
 ### Story Points: Fibonacci
 ---
