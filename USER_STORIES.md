@@ -152,7 +152,13 @@
 
 **Dado** un usuario no autenticado
 **Cuando** envía el formulario de publicación  
-**Entonces** no se crea la propiedad y se muestra un mensaje que indique que tiene el acceso denegado
+**Entonces** no se crea la propiedad y redirige al usuario a la pagina de inicio de sesión
+
+#### CA008 Escenario: Usuario con un rol distinto a arrendador intenta crear una publicación
+
+**Dado** un usuario con un rol distinto a arrendador
+**Cuando** envía el formulario de publicación  
+**Entonces** no se crea la propiedad y se muestra un mensaje que indique que no tiene autorización
 
 ### Story Points: Fibonacci
 ---
