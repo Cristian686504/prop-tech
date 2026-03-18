@@ -81,6 +81,18 @@
 **Cuando** envía el formulario de inicio de sesión  
 **Entonces** se permite el acceso y dirige al usuario a la pantalla principal
 
+#### CA002 Escenario: Inicio de sesión con campos vacíos
+
+**Dado** que el usuario ingresa un correo electrónico y/o contraseña vacíos
+**Cuando** envía el formulario de inicio de sesión  
+**Entonces** se deniega el acceso con un mensaje que diga que los campos no pueden ser vacíos
+
+#### CA003 Escenario: Inicio de sesión con credenciales invalidas
+
+**Dado** que el usuario ingresa un correo electrónico y/o contraseña inválidos
+**Cuando** envía el formulario de inicio de sesión  
+**Entonces** se deniega el acceso con un mensaje que diga que las credenciales son inválidas
+
 ### Story Points: Fibonacci
 
 ---
@@ -100,6 +112,54 @@
 **Cuando** envía el formulario de publicación  
 **Entonces** se crea la propiedad y se muestra un mensaje de confirmación de publicación exitosa
 
+#### CA002 Escenario: Publicación con campos vacíos
+
+**Dado** que el arrendador no ingresa algun detalle requerido de la propiedad 
+**Cuando** envía el formulario de publicación  
+**Entonces** no se crea la propiedad y se muestra un mensaje que indique que los campos no pueden ser vacíos
+
+#### CA003 Escenario: Publicación con un conjunto de imágenes que pesan más de 250MB
+
+**Dado** que el arrendador sube un conjunto de imágenes que pesan más de 250MB
+**Cuando** envía el formulario de publicación  
+**Entonces** no se crea la propiedad y se muestra un mensaje que indique que el conjunto de imágenes no puede pesar más de 250MB
+
+#### CA004 Escenario: Publicación con un título mayor a 255 carácteres
+
+**Dado** que el arrendador ingresa un título con más de 255 carácteres
+**Cuando** envía el formulario de publicación  
+**Entonces** no se crea la propiedad y se muestra un mensaje que indique que el título no puede ser mayor a 255 carácteres
+
+#### CA005 Escenario: Publicación con un dirección mayor a 255 carácteres
+
+**Dado** que el arrendador ingresa una dirección con más de 255 carácteres
+**Cuando** envía el formulario de publicación  
+**Entonces** no se crea la propiedad y se muestra un mensaje que indique que la dirección no puede ser mayor a 255 carácteres
+
+#### CA006 Escenario: Publicación con un descripción mayor a 2000 carácteres
+
+**Dado** que el arrendador ingresa una descripción con más de 2000 carácteres
+**Cuando** envía el formulario de publicación  
+**Entonces** no se crea la propiedad y se muestra un mensaje que indique que la descripción no puede ser mayor a 2000 carácteres
+
+#### CA007 Escenario: Publicación con un precio que no sea un número
+
+**Dado** que el arrendador ingresa en el precio un valor distinto a un número
+**Cuando** envía el formulario de publicación  
+**Entonces** no se crea la propiedad y se muestra un mensaje que indique que el precio debe ser un valor numérico
+
+#### CA008 Escenario: Usuario no autenticado intenta crear una publicación
+
+**Dado** un usuario no autenticado
+**Cuando** envía el formulario de publicación  
+**Entonces** no se crea la propiedad y redirige al usuario a la pagina de inicio de sesión
+
+#### CA009 Escenario: Usuario con un rol distinto a arrendador intenta crear una publicación
+
+**Dado** un usuario con un rol distinto a arrendador
+**Cuando** envía el formulario de publicación  
+**Entonces** no se crea la propiedad y se muestra un mensaje que indique que no tiene autorización
+
 ### Story Points: Fibonacci
 ---
 ## HU005 - Visualizar Propiedades Disponibles
@@ -116,6 +176,18 @@
 **Cuando** el arrendatario accede a la sección de propiedades disponibles  
 **Entonces** se muestran las propiedades con sus detalles correspondientes
 
+#### CA002 Escenario: No hay propiedades disponibles para visualizar
+
+**Dado** que no existen propiedades publicadas en la plataforma  
+**Cuando** el arrendatario accede a la sección de propiedades disponibles  
+**Entonces** se muestra un mensaje de que actualmente no hay propiedades disponibles
+
+#### CA003 Escenario: Usuario no autenticado quiere ver las propiedades disponibles
+
+**Dado** un usuario no autenticado
+**Cuando** accede a la sección de propiedades disponibles  
+**Entonces** se le redirige a la página de inicio de sesión
+
 ### Story Points: Fibonacci
 ---
 ## HU006 - Aplicar para Alquilar Propiedad
@@ -130,6 +202,17 @@
 **Cuando** envía la solicitud para alquilar la propiedad  
 **Entonces** se registra la solicitud con estado *pendiente* y se muestra un mensaje de confirmación de aplicación exitosa
 
+#### CA002 Escenario: El usuario envía la solicitud a una propiedad no disponible
+
+**Dado** que el arrendatario ha seleccionado una propiedad no disponible  
+**Cuando** envía la solicitud para alquilar la propiedad  
+**Entonces** no se registra la solicitud y se muestra un mensaje que dice que la propiedad no está disponible
+
+#### CA003 Escenario: Un usuario no autenticado envía la solicitud a una propiedad
+
+**Dado** que el arrendatario ha seleccionado una propiedad
+**Cuando** envía la solicitud para alquilar la propiedad  
+**Entonces** no se registra la solicitud y se le redirige a la página de inicio de sesión
 ### Story Points: Fibonacci
 
 
@@ -173,7 +256,19 @@
 
 **Dado** que el arrendatario tiene un score crediticio >= 700  
 **Cuando** el sistema calcula el depósito de garantía para una solicitud de alquiler  
-**Entonces** el depósito de garantía se establece en 1 mes de alquiler  
+**Entonces** el depósito de garantía se establece en 1 mes de alquiler 
+
+#### CA002 Escenario: Cálculo de depósito de garantía para perfil de riesgo medio
+
+**Dado** que el arrendatario tiene un score crediticio entre 600 y 699 
+**Cuando** el sistema calcula el depósito de garantía para una solicitud de alquiler  
+**Entonces** el depósito de garantía se establece en 2 meses de alquiler  
+
+#### CA003 Escenario: Cálculo de depósito de garantía para perfil de riesgo alto
+
+**Dado** que el arrendatario tiene un score crediticio < 600  
+**Cuando** el sistema calcula el depósito de garantía para una solicitud de alquiler  
+**Entonces** el depósito de garantía se establece en 3 meses de alquiler  
 
 ### Story Points: Fibonacci
 ---
