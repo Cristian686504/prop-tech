@@ -30,9 +30,9 @@
 #### QA-NF (QA No Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T004 | verificar que el endpoint /api/register con el método POST al crera el usuario con todos sus campos devuelva un código 201 con los datos y el fromato correspondiente |
-| T005 | verificar que el endpoint /api/register con el método POST al crera el usuario con campos inválidos devuelva un mensaje y código de error|
-| T006 | verificar que el endpoint /api/register con el método POST al crera el usuario con campos vacíos devuelva un mensaje y código de error|
+| T004 | Caso de prueba: verificar que el endpoint /api/register con el método POST al crera el usuario con todos sus campos devuelva un código 201 con los datos y el fromato correspondiente |
+| T005 | Caso de prueba: verificar que el endpoint /api/register con el método POST al crera el usuario con campos inválidos devuelva un mensaje y código de error|
+| T006 | Caso de prueba: verificar que el endpoint /api/register con el método POST al crera el usuario con campos vacíos devuelva un mensaje y código de error|
 
 ## HU002 - Registro de Arrendatario
 ### Perspectiva Dev
@@ -62,9 +62,9 @@
 #### QA-NF (QA No Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T004 | verificar que el endpoint /api/register con el método POST al crera el usuario con todos sus campos devuelva un código 201 con los datos y el fromato correspondiente |
-| T005 | verificar que el endpoint /api/register con el método POST al crera el usuario con campos inválidos devuelva un mensaje y código de error|
-| T006 | verificar que el endpoint /api/register con el método POST al crera el usuario con campos vacíos devuelva un mensaje y código de error|
+| T004 | Caso de prueba: verificar que el endpoint /api/register con el método POST al crear el usuario con todos sus campos devuelva un código 201 con los datos y el fromato correspondiente |
+| T005 | Caso de prueba: verificar que el endpoint /api/register con el método POST al crear el usuario con campos inválidos devuelva un mensaje y código de error|
+| T006 | Caso de prueba: verificar que el endpoint /api/register con el método POST al crear el usuario con campos vacíos devuelva un mensaje y código de error|
 
 ## HU003 - Inicio de Sesión
 ### Perspectiva Dev
@@ -89,11 +89,12 @@
 | T002 | Caso de prueba: verificar la generación de token JWT para autenticación |
 | T003 | Caso de prueba: verificar que si el token está malformado o ha expirado que deniegue el acceso al sistema |
 | T004 | Caso de prueba: verificar que las redirecciones están funcionando correctamente dependiendo del usuario y el rol |
+| T005 | Caso de prueba: verificar que el endpoint /api/login con el método POST al poner credenciales inválidas no de acceso al sistema |
 
 #### QA-NF (QA No Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T002 | Descripicón de tarea |
+| T006 | Caso de prueba: Verificar manejo de errores código HTTP y mensajes de error claros |
 
 ## HU004 - Publicar Propiedad
 ### Perspectiva Dev
