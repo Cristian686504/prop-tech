@@ -270,7 +270,7 @@
 **Cuando** el sistema calcula el depósito de garantía para una solicitud de alquiler  
 **Entonces** el depósito de garantía se establece en 3 meses de alquiler  
 
-### Story Points: Fibonacci
+### Story Points: 2
 ---
 
 ## HU009 - Generación de Contrato de Arrendamiento
