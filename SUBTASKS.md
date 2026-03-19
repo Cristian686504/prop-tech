@@ -227,12 +227,8 @@
 #### QA-F (QA Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| TQA037 | x |
-
-#### QA-NF (QA No Funcional)
-| id | Descripción de tarea |
-|----|----------------------|
-| TQA038 | x |
+| TQA037 | Caso de prueba: Verificar que el cálculo del depósito es el correcto basado en el score finaciero |
+| TQA038 | Caso de prueba: Verificar que el monto del depósito de garantía sea correcto |
 
 ## HU009 - Generación de Contrato de Arrendamiento
 ### Perspectiva Dev
