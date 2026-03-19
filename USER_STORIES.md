@@ -32,7 +32,7 @@
 **Cuando** envía el formulario de registro  
 **Entonces** muestra un mensaje de error indicando que los datos ingresados son inválidos y no se crea la cuenta
 
-### Story Points: Fibonacci
+### Story Points: 3
 
 ---
 ## HU002 - Registro de Arrendatario
