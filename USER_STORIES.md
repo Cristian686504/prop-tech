@@ -218,6 +218,13 @@
 ---
 ## HU005 - Visualizar Propiedades Disponibles
 
+### Definition of Ready
+- [ ] HU redactada en formato Como / Quiero / Para
+- [ ] Valor de negocio claro
+- [ ] Criterios de Aceptación definidos (mín. 2–3)
+- [ ] Dependencias externas resueltas
+- [ ] HU estimada por el equipo técnico
+
 **Como** arrendatario(inquilino)
 **Quiero** visualizar las propiedades disponibles para alquilar en la plataforma con sus detalles como título, dirección, descripción, precio de alquiler e imágenes.
 **Para** poder elegir una propiedad que se ajuste a mis necesidades y aplicar para alquilarla.
@@ -243,6 +250,14 @@
 **Entonces** se le redirige a la página de inicio de sesión
 
 ### Story Points: 2
+
+### Definition of Done
+- [ ] Código en repo — PR aprobado por al menos 1 par
+- [ ] Cobertura de pruebas unitarias > 80%
+- [ ] Pruebas funcionales de QA pasadas
+- [ ] Sin bugs críticos o bloqueantes abiertos
+- [ ] Todos los Criterios de Aceptación cumplidos
+
 ---
 ## HU006 - Aplicar para Alquilar Propiedad
 
