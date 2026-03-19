@@ -249,9 +249,5 @@
 #### QA-F (QA Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T001 | x |
-
-#### QA-NF (QA No Funcional)
-| id | Descripción de tarea |
-|----|----------------------|
-| T002 | x |
+| TQA039 | Caso de prueba: Verificar que el contrato contenga los datos necesarios del arrendador, del arrendatario y del depósito |
+| TQA040 | E2E: Inicio de sesión -> Selección de propiedad -> Aplicar -> Generación de contrato |
