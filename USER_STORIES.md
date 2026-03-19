@@ -4,6 +4,13 @@
 
 ## HU001 - Registro de Arrendador
 
+### Definition of Ready
+- [ ] HU redactada en formato Como / Quiero / Para
+- [ ] Valor de negocio claro
+- [ ] Criterios de Aceptación definidos (mín. 2–3)
+- [ ] Dependencias externas resueltas
+- [ ] HU estimada por el equipo técnico
+
 **Como** arrendador(propietario)
 **Quiero** registrarme en la plataforma con mis datos personales(nombre, correo electrónico, contraseña, teléfono)
 **Para** poder publicar mis propiedades y gestionar el flujo de alquiler
