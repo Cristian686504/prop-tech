@@ -276,7 +276,7 @@
 ## HU009 - Generación de Contrato de Arrendamiento
 
 **Como** arrendador(propietario)
-**Quiero** que el sistema genere automáticamente un contrato de arrendamiento en formato PDF con los datos del arrendatario, la propiedad, el depósito de garantía y el estado del contraro.
+**Quiero** que el sistema genere automáticamente un contrato de arrendamiento en formato PDF con los datos del arrendatario, la propiedad, el depósito de garantía y el estado del contrato.
 **Para** formalizar el acuerdo de alquiler de forma rápida y automatizada.
 
 ### Criterios de aceptación
@@ -295,5 +295,5 @@
 **Cuando** el sistema genera el contrato de arrendamiento  
 **Entonces** no se crea un archivo PDF con los detalles del contrato y se muestra un mensaje que dice que el calculo del depósito no se completó
 
-### Story Points: Fibonacci
+### Story Points: 3
 ---
