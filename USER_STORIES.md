@@ -213,7 +213,7 @@
 **Dado** que el arrendatario ha seleccionado una propiedad
 **Cuando** envía la solicitud para alquilar la propiedad  
 **Entonces** no se registra la solicitud y se le redirige a la página de inicio de sesión
-### Story Points: Fibonacci
+### Story Points: 2
 
 
 ---
