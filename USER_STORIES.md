@@ -288,7 +288,12 @@
 #### CA002 Escenario: La evaluación financiera no se completó
 **Dado** que la evaluación financiera del arrendatario no se completó  
 **Cuando** el sistema genera el contrato de arrendamiento  
-**Entonces** no se crea un archivo PDF con los detalles del contrato y se muestra un mensaje que dice que la evaluación financiera no se completó .
+**Entonces** no se crea un archivo PDF con los detalles del contrato y se muestra un mensaje que dice que la evaluación financiera no se completó
+
+#### CA003 Escenario: El calculo del depósito no se completó
+**Dado** que el calculo del depósito no se completó  
+**Cuando** el sistema genera el contrato de arrendamiento  
+**Entonces** no se crea un archivo PDF con los detalles del contrato y se muestra un mensaje que dice que el calculo del depósito no se completó
 
 ### Story Points: Fibonacci
 ---
