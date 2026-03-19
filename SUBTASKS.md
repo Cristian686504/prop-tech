@@ -73,31 +73,31 @@
 #### DEV-F (Desarrollo Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T001 | Implementar endpoint POST /api/login con validación de credenciales |
-| T002 | Implementar generación de token JWT para autenticación |
-| T003 | Implementar redirección con datos de usuario y rol |
+| TD015 | Implementar endpoint POST /api/login con validación de credenciales |
+| TD016 | Implementar generación de token JWT para autenticación |
+| TD017 | Implementar redirección con datos de usuario y rol |
 
 #### DEV-NF (Desarrollo No Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T004 | Implementar manejo de errores código HTTP y mensajes de error claros |
-| T005 | Implementar comparación de contraseñas con hashing |
+| TD018 | Implementar manejo de errores código HTTP y mensajes de error claros |
+| TD019 | Implementar comparación de contraseñas con hashing |
 
 ### Perspectiva QA
 #### QA-F (QA Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T001 | Caso de prueba: verificar que el endpoint /api/login con el método POST valide las credenciales |
-| T002 | Caso de prueba: verificar la generación de token JWT para autenticación |
-| T003 | Caso de prueba: verificar que si el token está malformado o ha expirado que deniegue el acceso al sistema |
-| T004 | Caso de prueba: verificar que las redirecciones están funcionando correctamente dependiendo del usuario y el rol |
-| T005 | Caso de prueba: verificar que el endpoint /api/login con el método POST al poner credenciales inválidas no de acceso al sistema |
-| T006 | Caso de prueba: verificar que al envíar campos vacíos no se inice sesión al usuario y se muestre un mensaje de error |
+| TQA015 | Caso de prueba: verificar que el endpoint /api/login con el método POST valide las credenciales |
+| TQA016 | Caso de prueba: verificar la generación de token JWT para autenticación |
+| TQA017 | Caso de prueba: verificar que si el token está malformado o ha expirado que deniegue el acceso al sistema |
+| TQA018 | Caso de prueba: verificar que las redirecciones están funcionando correctamente dependiendo del usuario y el rol |
+| TQA019 | Caso de prueba: verificar que el endpoint /api/login con el método POST al poner credenciales inválidas no de acceso al sistema |
+| TQA020 | Caso de prueba: verificar que al envíar campos vacíos no se inice sesión al usuario y se muestre un mensaje de error |
 
 #### QA-NF (QA No Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T006 | Caso de prueba: Verificar manejo de errores código HTTP y mensajes de error claros |
+| TQA021 | Caso de prueba: Verificar manejo de errores código HTTP y mensajes de error claros |
 
 ## HU004 - Publicar Propiedad
 ### Perspectiva Dev
