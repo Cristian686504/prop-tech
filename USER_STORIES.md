@@ -160,7 +160,7 @@
 **Cuando** envía el formulario de publicación  
 **Entonces** no se crea la propiedad y se muestra un mensaje que indique que no tiene autorización
 
-### Story Points: Fibonacci
+### Story Points: 5
 ---
 ## HU005 - Visualizar Propiedades Disponibles
 
