@@ -239,15 +239,15 @@
 #### DEV-F (Desarrollo Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T001 | Implementar generación automática de contrato de arrendamiento en formato PDF |
-| T002 | Crear tabla contratos con metadatos en BD con campos: id, propiedad_id, arrendatario_id, arrendador_id, fecha_inicio, fecha_fin, deposito_garantia, ruta_contrato_pdf , solicitud_id, estado |
-| T003 | Endpoint para generar contrato al aprobar solicitud de alquiler |
+| TD042 | Implementar generación automática de contrato de arrendamiento en formato PDF |
+| TD043 | Crear tabla contratos con metadatos en BD con campos: id, propiedad_id, arrendatario_id, arrendador_id, fecha_inicio, fecha_fin, deposito_garantia, ruta_contrato_pdf , solicitud_id, estado |
+| TD044 | Endpoint para generar contrato al aprobar solicitud de alquiler |
 
 #### DEV-NF (Desarrollo No Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T004 | Implementar manejo de errores código HTTP y mensajes de error claros |
-| T005 | Implementar lógica para evitar generación de múltiples contratos para la misma solicitud |
+| TD045 | Implementar manejo de errores código HTTP y mensajes de error claros |
+| TD046 | Implementar lógica para evitar generación de múltiples contratos para la misma solicitud |
 
 ### Perspectiva QA
 #### QA-F (QA Funcional)
