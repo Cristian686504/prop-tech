@@ -215,13 +215,6 @@
 - [ ] Sin bugs críticos o bloqueantes abiertos
 - [ ] Todos los Criterios de Aceptación cumplidos
 
-### Definition of Done
-- [ ] Código en repo — PR aprobado por al menos 1 par
-- [ ] Cobertura de pruebas unitarias > 80%
-- [ ] Pruebas funcionales de QA pasadas
-- [ ] Sin bugs críticos o bloqueantes abiertos
-- [ ] Todos los Criterios de Aceptación cumplidos
-
 ---
 ## HU005 - Visualizar Propiedades Disponibles
 
