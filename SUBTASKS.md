@@ -7,33 +7,33 @@
 #### DEV-F (Desarrollo Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T001 | Crear tabla usuarios en BD con campos: id, nombre, correo, contraseña(Hash), teléfono, rol, fecha de creación |
-| T002 | Crear modelo/entidad Usuario y DTOs |
-| T003 | Implementar endpoint POST /api/register |
-| T004 | Implementar validaciones de datos y manejo de errores en el endpoint de registro |
+| TD001 | Crear tabla usuarios en BD con campos: id, nombre, correo, contraseña(Hash), teléfono, rol, fecha de creación |
+| TD002 | Crear modelo/entidad Usuario y DTOs |
+| TD003 | Implementar endpoint POST /api/register |
+| TD004 | Implementar validaciones de datos y manejo de errores en el endpoint de registro |
 
 #### DEV-NF (Desarrollo No Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T005 | Implementar validaciones de entrada(formato de correo, longitud mínima de contraseña, formato de teléfono, campos requeridos) |
-| T006 | Implementar manejo de errores código HTTP y mensajes de error claros |
-| T007 | Implementar hashing de contraseña para almacenamiento seguro |
+| TD005 | Implementar validaciones de entrada(formato de correo, longitud mínima de contraseña, formato de teléfono, campos requeridos) |
+| TD006 | Implementar manejo de errores código HTTP y mensajes de error claros |
+| TD007 | Implementar hashing de contraseña para almacenamiento seguro |
 
 ### Perspectiva QA
 #### QA-F (QA Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T001 | Caso de prueba: verificar que el endpoint /api/register con el método POST crea el usuario con todos sus campos  |
-| T002 | Caso de prueba: verificar que no pueden existir dos correos iguales |
-| T003 | Caso de prueba: verificar que el rol con el que se crea el usuario es arrendador |
-| T004 | Caso de prueba: verificar que al envíar campos vacíos no se registre el usuario y se muestre un mensaje de error |
+| TQA001 | Caso de prueba: verificar que el endpoint /api/register con el método POST crea el usuario con todos sus campos  |
+| TQA002 | Caso de prueba: verificar que no pueden existir dos correos iguales |
+| TQA003 | Caso de prueba: verificar que el rol con el que se crea el usuario es arrendador |
+| TQA004 | Caso de prueba: verificar que al envíar campos vacíos no se registre el usuario y se muestre un mensaje de error |
 
 #### QA-NF (QA No Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T005 | Caso de prueba: verificar que el endpoint /api/register con el método POST al crera el usuario con todos sus campos devuelva un código 201 con los datos y el fromato correspondiente |
-| T006 | Caso de prueba: verificar que el endpoint /api/register con el método POST al crera el usuario con campos inválidos devuelva un mensaje y código de error|
-| T007 | Caso de prueba: verificar que el endpoint /api/register con el método POST al crera el usuario con campos vacíos devuelva un mensaje y código de error|
+| TQA005 | Caso de prueba: verificar que el endpoint /api/register con el método POST al crera el usuario con todos sus campos devuelva un código 201 con los datos y el fromato correspondiente |
+| TQA006 | Caso de prueba: verificar que el endpoint /api/register con el método POST al crera el usuario con campos inválidos devuelva un mensaje y código de error|
+| TQA007 | Caso de prueba: verificar que el endpoint /api/register con el método POST al crera el usuario con campos vacíos devuelva un mensaje y código de error|
 
 ## HU002 - Registro de Arrendatario
 ### Perspectiva Dev
