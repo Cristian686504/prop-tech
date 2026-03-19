@@ -160,3 +160,15 @@
 #### QA-NF (QA No Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
+| T002 | Descripicón de tarea |
+
+### HU007 - Evaluar perffil financiero del arrendatario
+### Perspectiva Dev
+#### DEV-F (Desarrollo Funcional)
+| id | Descripción de tarea |
+|----|----------------------|
+| T001 | Implementar servicio de evaluación financiera con las reglas de negocio (bajo, medio, alto) |
+| T002 | Integrar evaluación automática al recibir solicitud de alquiler |
+| T003 | Almacenar resultado de la evaluación en la solicitud |
+
+
