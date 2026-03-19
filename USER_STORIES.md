@@ -285,5 +285,10 @@
 **Cuando** el sistema genera el contrato de arrendamiento  
 **Entonces** se crea un archivo PDF con los detalles del contrato y se muestra un mensaje de confirmación de generación exitosa.
 
+#### CA002 Escenario: La evaluación financiera no se completó
+**Dado** que la evaluación financiera del arrendatario no se completó  
+**Cuando** el sistema genera el contrato de arrendamiento  
+**Entonces** no se crea un archivo PDF con los detalles del contrato y se muestra un mensaje que dice que la evaluación financiera no se completó .
+
 ### Story Points: Fibonacci
 ---
