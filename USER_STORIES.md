@@ -253,6 +253,13 @@
 **Cuando** el sistema evalúa el perfil financiero del arrendatario
 **Entonces** el perfil se clasifica como riesgo *bajo*
 
+#### CA003 Escenario: Perfil financiero con riesgo medio
+
+**Dado** que el arrendatario ha enviado una solicitud para alquilar una propiedad  
+**Y**  tiene un score crediticio >= 700, ingresos mensuales < 2 veces el precio de alquiler  
+**Cuando** el sistema evalúa el perfil financiero del arrendatario
+**Entonces** el perfil se clasifica como riesgo *medio*
+
 
 ### Story Points: 2
 ---
