@@ -139,6 +139,12 @@
 # EP02 - Gestión de Propiedades
 
 ## HU004 - Publicar Propiedad
+### Definition of Ready
+- [ ] HU redactada en formato Como / Quiero / Para
+- [ ] Valor de negocio claro
+- [ ] Criterios de Aceptación definidos (mín. 2–3)
+- [ ] Dependencias externas resueltas
+- [ ] HU estimada por el equipo técnico
 
 **Como** arrendador(propietario)
 **Quiero** publicar una propiedad en la plataforma con detalles como título, dirección, descripción, precio de alquiler e imágenes
@@ -201,6 +207,13 @@
 **Entonces** no se crea la propiedad y se muestra un mensaje que indique que no tiene autorización
 
 ### Story Points: 5
+
+### Definition of Done
+- [ ] Código en repo — PR aprobado por al menos 1 par
+- [ ] Cobertura de pruebas unitarias > 80%
+- [ ] Pruebas funcionales de QA pasadas
+- [ ] Sin bugs críticos o bloqueantes abiertos
+- [ ] Todos los Criterios de Aceptación cumplidos
 
 ### Definition of Done
 - [ ] Código en repo — PR aprobado por al menos 1 par
