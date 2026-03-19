@@ -241,7 +241,7 @@
 **Cuando** el sistema evalúa el perfil financiero del arrendatario
 **Entonces** el perfil se clasifica como riesgo *bajo*
 
-### Story Points: Fibonacci
+### Story Points: 2
 ---
 
  ## HU008 - Cálculo Dinámico del Depósito de Garantía
