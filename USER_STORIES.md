@@ -222,11 +222,16 @@
 
 ## HU007 - Evaluar Perfil Financiero del Arrendatario
 
+|Score crediticio|Ingresos mensuales vs Alquiler|Nivel de riesgo|
+|----------------|------------------|---------------|
+|>= 700          |>= 2x |Bajo |
+|>= 700          |< 2x |Medio |
+|>=500 y < 700   |>= 3x |Bajo |
+|>=500 y < 700   |>= 2x y < 3x |Medio |
+|>=500 y < 700   |< 2x |Alto |
+|< 500          |>= 3x |Medio |
+|< 500          |< 3x |Alto |
 
-**Supuestos**  
-- **Nivel de riesgo bajo**: score crediticio >= 700, ingresos mensuales >= 3 veces el precio de alquiler y situación laboral empleado o independiente estable.  
-- **Nivel de riesgo medio**: score crediticio entre 600 y 699, ingresos mensuales >= 2 veces el precio de alquiler y situación laboral empleado o independiente estable.  
-- **Nivel de riesgo alto**: score crediticio < 600, ingresos mensuales < 2 veces el precio de alquiler o situación laboral desempleado o independiente inestable.    
 
 ---
 **Como** arrendador(propietario)
@@ -287,3 +292,5 @@
 
 ### Story Points: Fibonacci
 ---
+
+
