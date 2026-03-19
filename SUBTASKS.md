@@ -40,8 +40,8 @@
 #### DEV-F (Desarrollo Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| TD008 | Crear tabla usuarios en BD con campos: id, nombre, correo, contraseña(Hash), teléfono, rol, fecha de creación |
-| TD009 | Crear modelo/entidad Usuario y DTOs |
+| TD008 | Verificar que ya existe o Crear tabla usuarios en BD con campos: id, nombre, correo, contraseña(Hash), teléfono, rol, fecha de creación |
+| TD009 | Verificar que ya existe o Crear modelo/entidad Usuario y DTOs |
 | TD010 | Implementar endpoint POST /api/register |
 | TD011 | Implementar validaciones de datos y manejo de errores en el endpoint de registro |
 
