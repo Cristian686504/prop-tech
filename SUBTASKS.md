@@ -188,26 +188,26 @@
 #### DEV-F (Desarrollo Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T001 | Implementar servicio de evaluación financiera con las reglas de negocio (bajo, medio, alto) |
-| T002 | Integrar evaluación automática al recibir solicitud de alquiler |
-| T003 | Almacenar resultado de la evaluación en la solicitud |
+| TD034 | Implementar servicio de evaluación financiera con las reglas de negocio (bajo, medio, alto) |
+| TD035 | Integrar evaluación automática al recibir solicitud de alquiler |
+| TD036 | Almacenar resultado de la evaluación en la solicitud |
 
 #### DEV-NF (Desarrollo No Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T004 | Implementar manejo de errores código HTTP y mensajes de error claros |
+| TD037 | Implementar manejo de errores código HTTP y mensajes de error claros |
 
 ### Perspectiva QA
 #### QA-F (QA Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T001 | Caso de prueba: Verificar que la evaluación automática se determine de forma correcta en base a las reglas de negocio |
-| T002 | Caso de prueba: Verificar que el resutlado se almacene en la solicitud |
+| TQA034 | Caso de prueba: Verificar que la evaluación automática se determine de forma correcta en base a las reglas de negocio |
+| TQA035 | Caso de prueba: Verificar que el resutlado se almacene en la solicitud |
 
 #### QA-NF (QA No Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T004 | Caso de prueba: Verificar que los códigos de errores funcionan y que los mensajes son claros |
+| TQA036 | Caso de prueba: Verificar que los códigos de errores funcionan y que los mensajes son claros |
 
 ## HU008 - Cálculo Dinámico del Depósito de Garantía
 ### Perspectiva Dev
