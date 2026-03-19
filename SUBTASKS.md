@@ -169,12 +169,15 @@
 #### QA-F (QA Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T001 | Descripicón de tarea |
+| T001 | Caso de prueba: Verificar que el endpoint POST /api/apply sea sólo accesible por arrendatarios |
+| T002 | Caso de prueba: Verificar que el endpoint POST /api/apply cree correctamente la aplicación con el código de estado pendiente |
 
 #### QA-NF (QA No Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T002 | Descripicón de tarea |
+| T003 | Caso de prueba: Verificar que si la propiedad no existe que la aplicación no se cree |
+| T004 | Caso de prueba: Verificar que los códigos de errores funcionan y que los mensajes son claros |
+| T005 | Caso de prueba: Verificar que no se pueden hacer dos o más aplicaciones a la misma propiedad |
 
 ### HU007 - Evaluar perffil financiero del arrendatario
 ### Perspectiva Dev
