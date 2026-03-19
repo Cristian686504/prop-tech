@@ -133,25 +133,25 @@
 #### DEV-F (Desarrollo Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T001 | Implementar endpoint GET /api/properties para listar propiedades disponibles |
-| T002 | Componente frontend para mostrar lista de propiedades con detalles (titulo, direccion, descripcion, precio_alquiler, imagenes) |
+| TD025 | Implementar endpoint GET /api/properties para listar propiedades disponibles |
+| TD026 | Componente frontend para mostrar lista de propiedades con detalles (titulo, direccion, descripcion, precio_alquiler, imagenes) |
 
 #### DEV-NF (Desarrollo No Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T003 | Implementar manejo de errores código HTTP y mensajes de error claros |
-| T004 | Implementar paginación para la lista de propiedades |
+| TD027 | Implementar manejo de errores código HTTP y mensajes de error claros |
+| TD028 | Implementar paginación para la lista de propiedades |
 
 ### Perspectiva QA
 #### QA-F (QA Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T001 | Caso de prueba: Verificar que el endpoint GET /api/properties lista las propiedades disponibles |
+| TQA027 | Caso de prueba: Verificar que el endpoint GET /api/properties lista las propiedades disponibles |
 
 #### QA-NF (QA No Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T002 | Caso de prueba: Verificar que las propiedades se listan en base a la paginación |
+| TQA028 | Caso de prueba: Verificar que las propiedades se listan en base a la paginación |
 
 ## HU006 - Aplicar para alquilar propiedad
 ### Perspectiva Dev
