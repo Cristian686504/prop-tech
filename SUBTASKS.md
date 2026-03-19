@@ -24,13 +24,17 @@
 | id | Descripción de tarea |
 |----|----------------------|
 | T001 | Caso de prueba: verificar que el endpoint /api/register con el método POST crea el usuario con todos sus campos  |
-| T002 | Caso de prueba: verificar que el endpoint /api/register con el método POST al crera el usuario con todos sus campos devuelva un código 201 con los datos y el fromato JSON correspondiente |
+| T002 | Caso de prueba: verificar que no pueden existir dos correos iguales |
+
+
 
 
 #### QA-NF (QA No Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T004 | Descripicón de tarea |
+| T003 | verificar que el endpoint /api/register con el método POST al crera el usuario con todos sus campos devuelva un código 201 con los datos y el fromato correspondiente |
+| T004 | verificar que el endpoint /api/register con el método POST al crera el usuario con campos inválidos devuelva un mensaje y código de error|
+| T005 | verificar que el endpoint /api/register con el método POST al crera el usuario con campos vacíos devuelva un mensaje y código de error|
 
 ## HU002 - Registro de Arrendatario
 ### Perspectiva Dev
