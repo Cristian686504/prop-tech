@@ -85,7 +85,10 @@
 #### QA-F (QA Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T001 | Descripicón de tarea |
+| T001 | Caso de prueba: verificar que el endpoint /api/login con el método POST valide las credenciales |
+| T002 | Caso de prueba: verificar la generación de token JWT para autenticación |
+| T003 | Caso de prueba: verificar que si el token está malformado o ha expirado que deniegue el acceso al sistema |
+| T004 | Caso de prueba: verificar que las redirecciones están funcionando correctamente dependiendo del usuario y el rol |
 
 #### QA-NF (QA No Funcional)
 | id | Descripción de tarea |
