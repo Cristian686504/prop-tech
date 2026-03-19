@@ -143,3 +143,20 @@
 | T001 | Crear tabla aplicaciones en BD con campos: id, propiedad_id, arrendatario_id, fecha_aplicacion, estado (pendiente, aceptada, rechazada) |
 | T002 | Crear modelo/entidad Aplicacion y DTOs |
 | T003 | Implementar endpoint POST /api/apply para que arrendatarios apliquen a una propiedad |
+
+#### DEV-NF (Desarrollo No Funcional)
+| id | Descripción de tarea |
+|----|----------------------|
+| T004 | Implementar validaciones (propiedad existe, arrendatario existe) |
+| T005 | Implementar manejo de errores código HTTP y mensajes de error claros |
+| T006 | Implementar lógica para evitar múltiples aplicaciones a la misma propiedad por el mismo arrendatario |
+
+### Perspectiva QA
+#### QA-F (QA Funcional)
+| id | Descripción de tarea |
+|----|----------------------|
+| T001 | Descripicón de tarea |
+
+#### QA-NF (QA No Funcional)
+| id | Descripción de tarea |
+|----|----------------------|
