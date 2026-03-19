@@ -158,30 +158,30 @@
 #### DEV-F (Desarrollo Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T001 | Crear tabla aplicaciones en BD con campos: id, propiedad_id, arrendatario_id, fecha_aplicacion, estado (pendiente, aceptada, rechazada) |
-| T002 | Crear modelo/entidad Aplicacion y DTOs |
-| T003 | Implementar endpoint POST /api/apply para que arrendatarios apliquen a una propiedad |
+| TD029 | Crear tabla aplicaciones en BD con campos: id, propiedad_id, arrendatario_id, fecha_aplicacion, estado (pendiente, aceptada, rechazada) |
+| TD030 | Crear modelo/entidad Aplicacion y DTOs |
+| TD031 | Implementar endpoint POST /api/apply para que arrendatarios apliquen a una propiedad |
 
 #### DEV-NF (Desarrollo No Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T004 | Implementar validaciones (propiedad existe, arrendatario existe) |
-| T005 | Implementar manejo de errores código HTTP y mensajes de error claros |
-| T006 | Implementar lógica para evitar múltiples aplicaciones a la misma propiedad por el mismo arrendatario |
+| TD032 | Implementar validaciones (propiedad existe, arrendatario existe) |
+| TD033 | Implementar manejo de errores código HTTP y mensajes de error claros |
+| TD034 | Implementar lógica para evitar múltiples aplicaciones a la misma propiedad por el mismo arrendatario |
 
 ### Perspectiva QA
 #### QA-F (QA Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T001 | Caso de prueba: Verificar que el endpoint POST /api/apply sea sólo accesible por arrendatarios |
-| T002 | Caso de prueba: Verificar que el endpoint POST /api/apply cree correctamente la aplicación con el código de estado pendiente |
+| TQA029 | Caso de prueba: Verificar que el endpoint POST /api/apply sea sólo accesible por arrendatarios |
+| TQA030 | Caso de prueba: Verificar que el endpoint POST /api/apply cree correctamente la aplicación con el código de estado pendiente |
 
 #### QA-NF (QA No Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T003 | Caso de prueba: Verificar que si la propiedad no existe que la aplicación no se cree |
-| T004 | Caso de prueba: Verificar que los códigos de errores funcionan y que los mensajes son claros |
-| T005 | Caso de prueba: Verificar que no se pueden hacer dos o más aplicaciones a la misma propiedad |
+| TQA031 | Caso de prueba: Verificar que si la propiedad no existe que la aplicación no se cree |
+| TQA032 | Caso de prueba: Verificar que los códigos de errores funcionan y que los mensajes son claros |
+| TQA033 | Caso de prueba: Verificar que no se pueden hacer dos o más aplicaciones a la misma propiedad |
 
 ## HU007 - Evaluar perffil financiero del arrendatario
 ### Perspectiva Dev
