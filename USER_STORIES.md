@@ -191,6 +191,15 @@
 ### Story Points: 2
 ---
 ## HU006 - Aplicar para Alquilar Propiedad
+
+### Definition of Ready
+- [ ] HU redactada en formato Como / Quiero / Para
+- [ ] Valor de negocio claro
+- [ ] Criterios de Aceptación definidos (mín. 2–3)
+- [ ] Dependencias externas resueltas
+- [ ] HU estimada por el equipo técnico
+
+
 **Como** arrendatario(inquilino)
 **Quiero** solicitar el alquiler de una propiedad disponible en la plataforma
 **Para** iniciar el proceso de evaluación financiera y poder alquilar la propiedad.
@@ -215,7 +224,13 @@
 **Entonces** no se registra la solicitud y se le redirige a la página de inicio de sesión
 ### Story Points: 2
 
-
+### Definition of Done
+- [ ] Código en repo — PR aprobado por al menos 1 par
+- [ ] Cobertura de pruebas unitarias > 80%
+- [ ] Pruebas funcionales de QA pasadas
+- [ ] Sin bugs críticos o bloqueantes abiertos
+- [ ] Todos los Criterios de Aceptación cumplidos
+- [ ] Desplegada en ambiente de Staging
 ---
 
 # EP03 - Evaluación Financiera y Contratación
