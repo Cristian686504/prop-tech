@@ -191,6 +191,15 @@
 ### Story Points: 2
 ---
 ## HU006 - Aplicar para Alquilar Propiedad
+
+### Definition of Ready
+- [ ] HU redactada en formato Como / Quiero / Para
+- [ ] Valor de negocio claro
+- [ ] Criterios de Aceptación definidos (mín. 2–3)
+- [ ] Dependencias externas resueltas
+- [ ] HU estimada por el equipo técnico
+
+
 **Como** arrendatario(inquilino)
 **Quiero** solicitar el alquiler de una propiedad disponible en la plataforma
 **Para** iniciar el proceso de evaluación financiera y poder alquilar la propiedad.
@@ -215,12 +224,25 @@
 **Entonces** no se registra la solicitud y se le redirige a la página de inicio de sesión
 ### Story Points: 2
 
-
+### Definition of Done
+- [ ] Código en repo — PR aprobado por al menos 1 par
+- [ ] Cobertura de pruebas unitarias > 80%
+- [ ] Pruebas funcionales de QA pasadas
+- [ ] Sin bugs críticos o bloqueantes abiertos
+- [ ] Todos los Criterios de Aceptación cumplidos
+- [ ] Desplegada en ambiente de Staging
 ---
 
 # EP03 - Evaluación Financiera y Contratación
 
 ## HU007 - Evaluar Perfil Financiero del Arrendatario
+
+### Definition of Ready
+- [ ] HU redactada en formato Como / Quiero / Para
+- [ ] Valor de negocio claro
+- [ ] Criterios de Aceptación definidos (mín. 2–3)
+- [ ] Dependencias externas resueltas
+- [ ] HU estimada por el equipo técnico
 
 |Score crediticio|Ingresos mensuales vs Alquiler|Nivel de riesgo|
 |----------------|------------------|---------------|
@@ -296,9 +318,24 @@
 **Entonces** el perfil se clasifica como riesgo *alto*
 
 ### Story Points: 2
+
+### Definition of Done
+- [ ] Código en repo — PR aprobado por al menos 1 par
+- [ ] Cobertura de pruebas unitarias > 80%
+- [ ] Pruebas funcionales de QA pasadas
+- [ ] Sin bugs críticos o bloqueantes abiertos
+- [ ] Todos los Criterios de Aceptación cumplidos
+- [ ] Desplegada en ambiente de Staging
 ---
 
  ## HU008 - Cálculo Dinámico del Depósito de Garantía
+
+### Definition of Ready
+- [ ] HU redactada en formato Como / Quiero / Para
+- [ ] Valor de negocio claro
+- [ ] Criterios de Aceptación definidos (mín. 2–3)
+- [ ] Dependencias externas resueltas
+- [ ] HU estimada por el equipo técnico
 
 **Como** arrendador(propietario)
 **Quiero** que el sistema calcule dinámicamente el depósito de garantía (1 a 3 meses) en base al score crediticio del arrendatario cuando aplique para alquilar mi propiedad 
@@ -325,9 +362,24 @@
 **Entonces** el depósito de garantía se establece en 3 meses de alquiler  
 
 ### Story Points: 2
+
+### Definition of Done
+- [ ] Código en repo — PR aprobado por al menos 1 par
+- [ ] Cobertura de pruebas unitarias > 80%
+- [ ] Pruebas funcionales de QA pasadas
+- [ ] Sin bugs críticos o bloqueantes abiertos
+- [ ] Todos los Criterios de Aceptación cumplidos
+- [ ] Desplegada en ambiente de Staging
 ---
 
 ## HU009 - Generación de Contrato de Arrendamiento
+
+### Definition of Ready
+- [ ] HU redactada en formato Como / Quiero / Para
+- [ ] Valor de negocio claro
+- [ ] Criterios de Aceptación definidos (mín. 2–3)
+- [ ] Dependencias externas resueltas
+- [ ] HU estimada por el equipo técnico
 
 **Como** arrendador(propietario)
 **Quiero** que el sistema genere automáticamente un contrato de arrendamiento en formato PDF con los datos del arrendatario, la propiedad, el depósito de garantía y el estado del contrato.
@@ -350,4 +402,12 @@
 **Entonces** no se crea un archivo PDF con los detalles del contrato y se muestra un mensaje que dice que el calculo del depósito no se completó
 
 ### Story Points: 3
+
+### Definition of Done
+- [ ] Código en repo — PR aprobado por al menos 1 par
+- [ ] Cobertura de pruebas unitarias > 80%
+- [ ] Pruebas funcionales de QA pasadas
+- [ ] Sin bugs críticos o bloqueantes abiertos
+- [ ] Todos los Criterios de Aceptación cumplidos
+- [ ] Desplegada en ambiente de Staging
 ---
