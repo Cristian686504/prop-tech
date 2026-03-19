@@ -171,4 +171,18 @@
 | T002 | Integrar evaluación automática al recibir solicitud de alquiler |
 | T003 | Almacenar resultado de la evaluación en la solicitud |
 
+#### DEV-NF (Desarrollo No Funcional)
+| id | Descripción de tarea |
+|----|----------------------|
+| T004 | Implementar manejo de errores código HTTP y mensajes de error claros |
 
+### Perspectiva QA
+#### QA-F (QA Funcional)
+| id | Descripción de tarea |
+|----|----------------------|
+| T001 | Descripicón de tarea |
+
+#### QA-NF (QA No Funcional)
+| id | Descripción de tarea |
+|----|----------------------|
+| T002 | Descripicón de tarea |
