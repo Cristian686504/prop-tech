@@ -93,7 +93,7 @@
 **Cuando** envía el formulario de inicio de sesión  
 **Entonces** se deniega el acceso con un mensaje que diga que las credenciales son inválidas
 
-### Story Points: Fibonacci
+### Story Points: 5
 
 ---
 # EP02 - Gestión de Propiedades
