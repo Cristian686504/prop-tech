@@ -197,9 +197,10 @@
 #### QA-F (QA Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T001 | Descripicón de tarea |
+| T001 | Caso de prueba: Verificar que la evaluación automática se determine de forma correcta en base a las reglas de negocio |
+| T002 | Caso de prueba: Verificar que el resutlado se almacene en la solicitud |
 
 #### QA-NF (QA No Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T002 | Descripicón de tarea |
+| T004 | Caso de prueba: Verificar que los códigos de errores funcionan y que los mensajes son claros |
