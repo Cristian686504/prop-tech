@@ -1,12 +1,12 @@
 # Visión
 
-PARA propietarios
-QUE buscan aumentar la cantidad de clientes, la velocidad y seguridad de alquiler
-EL PropTech
-ES UNA plataforma de arrendamiento inteligente
-QUE permite acceder, acelerar y proteger el flujo de alquiler
-A DIFERENCIA DEL modelo tradicional
-NUESTRO PRODUCTO automatiza la evaluación financiera permitiendo decisiones seguras y rápidas
+Para propietarios
+que buscan aumentar la cantidad de clientes, la velocidad y seguridad de alquiler
+el PropTech
+es una plataforma de arrendamiento inteligente
+que permite acceder, acelerar y proteger el flujo de alquiler
+a diferencia del modelo tradicional
+nuestro producto automatiza la evaluación financiera permitiendo decisiones seguras y rápidas
 
 # Objetivos
 
