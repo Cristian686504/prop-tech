@@ -222,6 +222,13 @@
 
 ## HU007 - Evaluar Perfil Financiero del Arrendatario
 
+### Definition of Ready
+- [ ] HU redactada en formato Como / Quiero / Para
+- [ ] Valor de negocio claro
+- [ ] Criterios de Aceptación definidos (mín. 2–3)
+- [ ] Dependencias externas resueltas
+- [ ] HU estimada por el equipo técnico
+
 |Score crediticio|Ingresos mensuales vs Alquiler|Nivel de riesgo|
 |----------------|------------------|---------------|
 |>= 700          |>= 2x |Bajo |
@@ -296,6 +303,14 @@
 **Entonces** el perfil se clasifica como riesgo *alto*
 
 ### Story Points: 2
+
+### Definition of Done
+- [ ] Código en repo — PR aprobado por al menos 1 par
+- [ ] Cobertura de pruebas unitarias > 80%
+- [ ] Pruebas funcionales de QA pasadas
+- [ ] Sin bugs críticos o bloqueantes abiertos
+- [ ] Todos los Criterios de Aceptación cumplidos
+- [ ] Desplegada en ambiente de Staging
 ---
 
  ## HU008 - Cálculo Dinámico del Depósito de Garantía
