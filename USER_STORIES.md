@@ -188,7 +188,7 @@
 **Cuando** accede a la sección de propiedades disponibles  
 **Entonces** se le redirige a la página de inicio de sesión
 
-### Story Points: Fibonacci
+### Story Points: 2
 ---
 ## HU006 - Aplicar para Alquilar Propiedad
 **Como** arrendatario(inquilino)
