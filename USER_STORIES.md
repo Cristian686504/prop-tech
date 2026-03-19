@@ -51,6 +51,13 @@
 ---
 ## HU002 - Registro de Arrendatario
 
+### Definition of Ready
+- [ ] HU redactada en formato Como / Quiero / Para
+- [ ] Valor de negocio claro
+- [ ] Criterios de Aceptación definidos (mín. 2–3)
+- [ ] Dependencias externas resueltas
+- [ ] HU estimada por el equipo técnico
+
 **Como** arrendatario(inquilino)
 **Quiero** registrarme en la plataforma con mis datos personales(nombre, correo electrónico, contraseña, teléfono)
 **Para** poder buscar y alquilar propiedades disponibles en la plataforma
@@ -79,6 +86,14 @@
 **Entonces** muestra un mensaje de error indicando que los datos ingresados son inválidos y no se crea la cuenta
 
 ### Story Points: 2
+
+### Definition of Done
+- [ ] Código en repo — PR aprobado por al menos 1 par
+- [ ] Cobertura de pruebas unitarias > 80%
+- [ ] Pruebas funcionales de QA pasadas
+- [ ] Sin bugs críticos o bloqueantes abiertos
+- [ ] Todos los Criterios de Aceptación cumplidos
+
 ---
 
 ## HU003 - Inicio de Sesión
