@@ -40,6 +40,13 @@
 **Entonces** muestra un mensaje de error indicando que los datos ingresados son inválidos y no se crea la cuenta
 
 ### Story Points: 3
+### Definition of Done
+- [ ] Código en repo — PR aprobado por al menos 1 par
+- [ ] Cobertura de pruebas unitarias > 80%
+- [ ] Pruebas funcionales de QA pasadas
+- [ ] Sin bugs críticos o bloqueantes abiertos
+- [ ] Todos los Criterios de Aceptación cumplidos
+
 
 ---
 ## HU002 - Registro de Arrendatario
