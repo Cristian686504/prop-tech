@@ -329,6 +329,13 @@
 
 ## HU009 - Generación de Contrato de Arrendamiento
 
+### Definition of Ready
+- [ ] HU redactada en formato Como / Quiero / Para
+- [ ] Valor de negocio claro
+- [ ] Criterios de Aceptación definidos (mín. 2–3)
+- [ ] Dependencias externas resueltas
+- [ ] HU estimada por el equipo técnico
+
 **Como** arrendador(propietario)
 **Quiero** que el sistema genere automáticamente un contrato de arrendamiento en formato PDF con los datos del arrendatario, la propiedad, el depósito de garantía y el estado del contrato.
 **Para** formalizar el acuerdo de alquiler de forma rápida y automatizada.
@@ -350,4 +357,12 @@
 **Entonces** no se crea un archivo PDF con los detalles del contrato y se muestra un mensaje que dice que el calculo del depósito no se completó
 
 ### Story Points: 3
+
+### Definition of Done
+- [ ] Código en repo — PR aprobado por al menos 1 par
+- [ ] Cobertura de pruebas unitarias > 80%
+- [ ] Pruebas funcionales de QA pasadas
+- [ ] Sin bugs críticos o bloqueantes abiertos
+- [ ] Todos los Criterios de Aceptación cumplidos
+- [ ] Desplegada en ambiente de Staging
 ---
