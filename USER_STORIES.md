@@ -309,6 +309,7 @@
 ### Definition of Ready
 - [ ] HU redactada en formato Como / Quiero / Para
 - [ ] Valor de negocio claro
+- [ ] Definir lógica de negocio para evaluar el perfil financiero del arrendatario
 - [ ] Criterios de Aceptación definidos (mín. 2–3)
 - [ ] Dependencias externas resueltas
 - [ ] HU estimada por el equipo técnico
