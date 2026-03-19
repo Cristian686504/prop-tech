@@ -26,13 +26,14 @@
 | T001 | Caso de prueba: verificar que el endpoint /api/register con el método POST crea el usuario con todos sus campos  |
 | T002 | Caso de prueba: verificar que no pueden existir dos correos iguales |
 | T003 | Caso de prueba: verificar que el rol con el que se crea el usuario es arrendador |
+| T004 | Caso de prueba: verificar que al envíar campos vacíos no se registre el usuario y se muestre un mensaje de error |
 
 #### QA-NF (QA No Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T004 | Caso de prueba: verificar que el endpoint /api/register con el método POST al crera el usuario con todos sus campos devuelva un código 201 con los datos y el fromato correspondiente |
-| T005 | Caso de prueba: verificar que el endpoint /api/register con el método POST al crera el usuario con campos inválidos devuelva un mensaje y código de error|
-| T006 | Caso de prueba: verificar que el endpoint /api/register con el método POST al crera el usuario con campos vacíos devuelva un mensaje y código de error|
+| T005 | Caso de prueba: verificar que el endpoint /api/register con el método POST al crera el usuario con todos sus campos devuelva un código 201 con los datos y el fromato correspondiente |
+| T006 | Caso de prueba: verificar que el endpoint /api/register con el método POST al crera el usuario con campos inválidos devuelva un mensaje y código de error|
+| T007 | Caso de prueba: verificar que el endpoint /api/register con el método POST al crera el usuario con campos vacíos devuelva un mensaje y código de error|
 
 ## HU002 - Registro de Arrendatario
 ### Perspectiva Dev
@@ -58,13 +59,14 @@
 | T001 | Caso de prueba: verificar que el endpoint /api/register con el método POST crea el usuario con todos sus campos  |
 | T002 | Caso de prueba: verificar que no pueden existir dos correos iguales |
 | T003 | Caso de prueba: verificar que el rol con el que se crea el usuario es arrendatario |
+| T004 | Caso de prueba: verificar que al envíar campos vacíos no se registre el usuario y se muestre un mensaje de error |
 
 #### QA-NF (QA No Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T004 | Caso de prueba: verificar que el endpoint /api/register con el método POST al crear el usuario con todos sus campos devuelva un código 201 con los datos y el fromato correspondiente |
-| T005 | Caso de prueba: verificar que el endpoint /api/register con el método POST al crear el usuario con campos inválidos devuelva un mensaje y código de error|
-| T006 | Caso de prueba: verificar que el endpoint /api/register con el método POST al crear el usuario con campos vacíos devuelva un mensaje y código de error|
+| T005 | Caso de prueba: verificar que el endpoint /api/register con el método POST al crear el usuario con todos sus campos devuelva un código 201 con los datos y el fromato correspondiente |
+| T006 | Caso de prueba: verificar que el endpoint /api/register con el método POST al crear el usuario con campos inválidos devuelva un mensaje y código de error|
+| T007 | Caso de prueba: verificar que el endpoint /api/register con el método POST al crear el usuario con campos vacíos devuelva un mensaje y código de error|
 
 ## HU003 - Inicio de Sesión
 ### Perspectiva Dev
@@ -90,6 +92,7 @@
 | T003 | Caso de prueba: verificar que si el token está malformado o ha expirado que deniegue el acceso al sistema |
 | T004 | Caso de prueba: verificar que las redirecciones están funcionando correctamente dependiendo del usuario y el rol |
 | T005 | Caso de prueba: verificar que el endpoint /api/login con el método POST al poner credenciales inválidas no de acceso al sistema |
+| T006 | Caso de prueba: verificar que al envíar campos vacíos no se inice sesión al usuario y se muestre un mensaje de error |
 
 #### QA-NF (QA No Funcional)
 | id | Descripción de tarea |
@@ -118,6 +121,7 @@
 | T001 | Caso de prueba: Verificar que el endpoint POST /api/properties sea sólo accesible por arrendatarios |
 | T002 | Caso de prueba: Verificar que el endpoint POST /api/properties cree la propiedad con sus datos |
 | T003 | E2E: Inicio de sesión -> Creación de publicación |
+| T004 | Caso de prueba: verificar que al envíar campos vacíos no se publique la propiedad y se muestre un mensaje de error |
 
 #### QA-NF (QA No Funcional)
 | id | Descripción de tarea |
