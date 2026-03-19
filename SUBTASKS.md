@@ -23,7 +23,9 @@
 #### QA-F (QA Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T003 | Descripicón de tarea |
+| T001 | Caso de prueba: verificar que el endpoint /api/register con el método POST crea el usuario con todos sus campos  |
+| T002 | Caso de prueba: verificar que el endpoint /api/register con el método POST al crera el usuario con todos sus campos devuelva un código 201 con los datos y el fromato JSON correspondiente |
+
 
 #### QA-NF (QA No Funcional)
 | id | Descripción de tarea |
