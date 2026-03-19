@@ -300,6 +300,13 @@
 
  ## HU008 - Cálculo Dinámico del Depósito de Garantía
 
+### Definition of Ready
+- [ ] HU redactada en formato Como / Quiero / Para
+- [ ] Valor de negocio claro
+- [ ] Criterios de Aceptación definidos (mín. 2–3)
+- [ ] Dependencias externas resueltas
+- [ ] HU estimada por el equipo técnico
+
 **Como** arrendador(propietario)
 **Quiero** que el sistema calcule dinámicamente el depósito de garantía (1 a 3 meses) en base al score crediticio del arrendatario cuando aplique para alquilar mi propiedad 
 **Para** proteger mi propiedad y reducir el riesgo financiero del inquilino.
@@ -325,6 +332,14 @@
 **Entonces** el depósito de garantía se establece en 3 meses de alquiler  
 
 ### Story Points: 2
+
+### Definition of Done
+- [ ] Código en repo — PR aprobado por al menos 1 par
+- [ ] Cobertura de pruebas unitarias > 80%
+- [ ] Pruebas funcionales de QA pasadas
+- [ ] Sin bugs críticos o bloqueantes abiertos
+- [ ] Todos los Criterios de Aceptación cumplidos
+- [ ] Desplegada en ambiente de Staging
 ---
 
 ## HU009 - Generación de Contrato de Arrendamiento
