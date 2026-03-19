@@ -32,7 +32,7 @@
 **Cuando** envía el formulario de registro  
 **Entonces** muestra un mensaje de error indicando que los datos ingresados son inválidos y no se crea la cuenta
 
-### Story Points: Fibonacci
+### Story Points: 3
 
 ---
 ## HU002 - Registro de Arrendatario
@@ -64,7 +64,7 @@
 **Cuando** envía el formulario de registro  
 **Entonces** muestra un mensaje de error indicando que los datos ingresados son inválidos y no se crea la cuenta
 
-### Story Points: Fibonacci
+### Story Points: 2
 ---
 
 ## HU003 - Inicio de Sesión
@@ -93,7 +93,7 @@
 **Cuando** envía el formulario de inicio de sesión  
 **Entonces** se deniega el acceso con un mensaje que diga que las credenciales son inválidas
 
-### Story Points: Fibonacci
+### Story Points: 5
 
 ---
 # EP02 - Gestión de Propiedades
@@ -160,7 +160,7 @@
 **Cuando** envía el formulario de publicación  
 **Entonces** no se crea la propiedad y se muestra un mensaje que indique que no tiene autorización
 
-### Story Points: Fibonacci
+### Story Points: 5
 ---
 ## HU005 - Visualizar Propiedades Disponibles
 
@@ -188,7 +188,7 @@
 **Cuando** accede a la sección de propiedades disponibles  
 **Entonces** se le redirige a la página de inicio de sesión
 
-### Story Points: Fibonacci
+### Story Points: 2
 ---
 ## HU006 - Aplicar para Alquilar Propiedad
 **Como** arrendatario(inquilino)
@@ -213,7 +213,7 @@
 **Dado** que el arrendatario ha seleccionado una propiedad
 **Cuando** envía la solicitud para alquilar la propiedad  
 **Entonces** no se registra la solicitud y se le redirige a la página de inicio de sesión
-### Story Points: Fibonacci
+### Story Points: 2
 
 
 ---
@@ -246,7 +246,7 @@
 **Cuando** el sistema evalúa el perfil financiero del arrendatario
 **Entonces** el perfil se clasifica como riesgo *bajo*
 
-### Story Points: Fibonacci
+### Story Points: 2
 ---
 
  ## HU008 - Cálculo Dinámico del Depósito de Garantía
@@ -275,13 +275,13 @@
 **Cuando** el sistema calcula el depósito de garantía para una solicitud de alquiler  
 **Entonces** el depósito de garantía se establece en 3 meses de alquiler  
 
-### Story Points: Fibonacci
+### Story Points: 2
 ---
 
 ## HU009 - Generación de Contrato de Arrendamiento
 
 **Como** arrendador(propietario)
-**Quiero** que el sistema genere automáticamente un contrato de arrendamiento en formato PDF con los datos del arrendatario, la propiedad, el depósito de garantía y el estado del contraro.
+**Quiero** que el sistema genere automáticamente un contrato de arrendamiento en formato PDF con los datos del arrendatario, la propiedad, el depósito de garantía y el estado del contrato.
 **Para** formalizar el acuerdo de alquiler de forma rápida y automatizada.
 
 ### Criterios de aceptación
@@ -290,7 +290,15 @@
 **Cuando** el sistema genera el contrato de arrendamiento  
 **Entonces** se crea un archivo PDF con los detalles del contrato y se muestra un mensaje de confirmación de generación exitosa.
 
-### Story Points: Fibonacci
+#### CA002 Escenario: La evaluación financiera no se completó
+**Dado** que la evaluación financiera del arrendatario no se completó  
+**Cuando** el sistema genera el contrato de arrendamiento  
+**Entonces** no se crea un archivo PDF con los detalles del contrato y se muestra un mensaje que dice que la evaluación financiera no se completó
+
+#### CA003 Escenario: El calculo del depósito no se completó
+**Dado** que el calculo del depósito no se completó  
+**Cuando** el sistema genera el contrato de arrendamiento  
+**Entonces** no se crea un archivo PDF con los detalles del contrato y se muestra un mensaje que dice que el calculo del depósito no se completó
+
+### Story Points: 3
 ---
-
-
