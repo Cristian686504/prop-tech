@@ -134,3 +134,12 @@
 | id | Descripción de tarea |
 |----|----------------------|
 | T002 | Descripicón de tarea |
+
+## HU006 - Aplicar para alquilar propiedad
+### Perspectiva Dev
+#### DEV-F (Desarrollo Funcional)
+| id | Descripción de tarea |
+|----|----------------------|
+| T001 | Crear tabla aplicaciones en BD con campos: id, propiedad_id, arrendatario_id, fecha_aplicacion, estado (pendiente, aceptada, rechazada) |
+| T002 | Crear modelo/entidad Aplicacion y DTOs |
+| T003 | Implementar endpoint POST /api/apply para que arrendatarios apliquen a una propiedad |
