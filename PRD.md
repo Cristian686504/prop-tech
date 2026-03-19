@@ -10,7 +10,7 @@ nuestro producto automatiza la evaluación financiera permitiendo decisiones seg
 
 # Objetivos
 
-- Aumentar la cantidad de alquileres en un 30%
+- Aumentar la cantidad de alquileres en un 20%
 - Disminuir el riesgo de incumplimiento de contrato en un 10%
 - El flujo de alquiler tendrá una duración de menos de 1 día
 
