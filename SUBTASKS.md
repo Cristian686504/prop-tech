@@ -214,25 +214,25 @@
 #### DEV-F (Desarrollo Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T001 | Implementar lógica para calcular depósito de garantía basado en el score financiero |
-| T002 | Integrar cálculo dinámico al proceso de solicitud para alquilar propiedad |
-| T003 | Mostrar monto del depósito de garantía en la solicitud |
+| TD038 | Implementar lógica para calcular depósito de garantía basado en el score financiero |
+| TD039 | Integrar cálculo dinámico al proceso de solicitud para alquilar propiedad |
+| TD040 | Mostrar monto del depósito de garantía en la solicitud |
 
 #### DEV-NF (Desarrollo No Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T004 | Implementar manejo de errores código HTTP y mensajes de error claros |
+| TD041 | Implementar manejo de errores código HTTP y mensajes de error claros |
 
 ### Perspectiva QA
 #### QA-F (QA Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T001 | X |
+| TQA037 | x |
 
 #### QA-NF (QA No Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T002 | x |
+| TQA038 | x |
 
 ## HU009 - Generación de Contrato de Arrendamiento
 ### Perspectiva Dev
