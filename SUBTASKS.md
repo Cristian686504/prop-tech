@@ -115,12 +115,14 @@
 #### QA-F (QA Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T001 | Descripicón de tarea |
+| T001 | Caso de prueba: Verificar que el endpoint POST /api/properties sea sólo accesible por arrendatarios |
+| T002 | Caso de prueba: Verificar que el endpoint POST /api/properties cree la propiedad con sus datos |
+| T003 | E2E: Inicio de sesión -> Creación de publicación |
 
 #### QA-NF (QA No Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T002 | Descripicón de tarea |
+| T004 | Caso de prueba: Verificar que el endpoint POST /api/properties devuelva un código y mensaje de error y si no cumple con las restricciones de los datos |
 
 ## HU005 - Visualizar Propiedades Disponibles
 ### Perspectiva Dev
