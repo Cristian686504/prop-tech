@@ -183,7 +183,7 @@
 | T004 | Caso de prueba: Verificar que los códigos de errores funcionan y que los mensajes son claros |
 | T005 | Caso de prueba: Verificar que no se pueden hacer dos o más aplicaciones a la misma propiedad |
 
-### HU007 - Evaluar perffil financiero del arrendatario
+## HU007 - Evaluar perffil financiero del arrendatario
 ### Perspectiva Dev
 #### DEV-F (Desarrollo Funcional)
 | id | Descripción de tarea |
@@ -208,3 +208,29 @@
 | id | Descripción de tarea |
 |----|----------------------|
 | T004 | Caso de prueba: Verificar que los códigos de errores funcionan y que los mensajes son claros |
+
+## HU008 - Cálculo Dinámico del Depósito de Garantía
+### Perspectiva Dev
+#### DEV-F (Desarrollo Funcional)
+| id | Descripción de tarea |
+|----|----------------------|
+| T001 | Implementar lógica para calcular depósito de garantía basado en el score financiero |
+| T002 | Integrar cálculo dinámico al proceso de solicitud para alquilar propiedad |
+| T003 | Mostrar monto del depósito de garantía en la solicitud |
+
+#### DEV-NF (Desarrollo No Funcional)
+| id | Descripción de tarea |
+|----|----------------------|
+| T004 | Implementar manejo de errores código HTTP y mensajes de error claros |
+
+### Perspectiva QA
+#### QA-F (QA Funcional)
+| id | Descripción de tarea |
+|----|----------------------|
+| T001 | X |
+
+#### QA-NF (QA No Funcional)
+| id | Descripción de tarea |
+|----|----------------------|
+| T002 | x |
+
