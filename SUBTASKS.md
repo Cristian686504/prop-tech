@@ -104,29 +104,29 @@
 #### DEV-F (Desarrollo Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T001 | Crear tabla propiedades en BD con campos: id, titulo, direccion, descripcion, precio_alquiler, imagenes, fecha_publicacion, arrendador_id, fecha_actualizacion |
-| T002 | Crear modelo/entidad Propiedad y DTOs |
-| T003 | Implementar endpoint POST /api/properties para publicar una propiedad (solo accesible por arrendadores) |
+| TD020 | Crear tabla propiedades en BD con campos: id, titulo, direccion, descripcion, precio_alquiler, imagenes, fecha_publicacion, arrendador_id, fecha_actualizacion |
+| TD021 | Crear modelo/entidad Propiedad y DTOs |
+| TD022 | Implementar endpoint POST /api/properties para publicar una propiedad (solo accesible por arrendadores) |
 
 #### DEV-NF (Desarrollo No Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T004 | Implementar validaciones de entrada(formato de datos, campos requeridos) |
-| T005 | Implementar manejo de errores código HTTP y mensajes de error claros |
+| TD023 | Implementar validaciones de entrada(formato de datos, campos requeridos) |
+| TD024 | Implementar manejo de errores código HTTP y mensajes de error claros |
 
 ### Perspectiva QA
 #### QA-F (QA Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T001 | Caso de prueba: Verificar que el endpoint POST /api/properties sea sólo accesible por arrendatarios |
-| T002 | Caso de prueba: Verificar que el endpoint POST /api/properties cree la propiedad con sus datos |
-| T003 | E2E: Inicio de sesión -> Creación de publicación |
-| T004 | Caso de prueba: verificar que al envíar campos vacíos no se publique la propiedad y se muestre un mensaje de error |
+| TQA022 | Caso de prueba: Verificar que el endpoint POST /api/properties sea sólo accesible por arrendatarios |
+| TQA023 | Caso de prueba: Verificar que el endpoint POST /api/properties cree la propiedad con sus datos |
+| TQA024 | E2E: Inicio de sesión -> Creación de publicación |
+| TQA025 | Caso de prueba: verificar que al envíar campos vacíos no se publique la propiedad y se muestre un mensaje de error |
 
 #### QA-NF (QA No Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| T004 | Caso de prueba: Verificar que el endpoint POST /api/properties devuelva un código y mensaje de error y si no cumple con las restricciones de los datos |
+| TQA026 | Caso de prueba: Verificar que el endpoint POST /api/properties devuelva un código y mensaje de error y si no cumple con las restricciones de los datos |
 
 ## HU005 - Visualizar Propiedades Disponibles
 ### Perspectiva Dev
