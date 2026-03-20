@@ -1,7 +1,7 @@
 # Visión
 
 Para propietarios en Colombia
-que buscan aumentar la cantidad de clientes, la velocidad y seguridad de alquiler
+que buscan aumentar la cantidad de clientes, la velocidad y seguridad de alquiler de sus propiedades
 el PropTech
 es una plataforma de arrendamiento inteligente
 que permite acceder, acelerar y proteger el flujo de alquiler
