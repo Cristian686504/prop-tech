@@ -66,12 +66,12 @@
 | id | Descripción de tarea |
 |----|----------------------|
 | TD015 | Implementar endpoint POST /api/login con validación de credenciales |
-| TD016 | Implementar generación de token JWT para autenticación |
 | TD017 | Implementar redirección con datos de usuario y rol |
 
 #### DEV-NF (Desarrollo No Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
+| TD016 | Implementar generación de token JWT para autenticación |
 | TD018 | Implementar manejo de errores código HTTP y mensajes de error claros |
 | TD019 | Implementar comparación de contraseñas con hashing |
 
