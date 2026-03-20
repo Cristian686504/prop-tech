@@ -142,13 +142,13 @@
 | TD029 | Crear tabla aplicaciones en BD con campos: id, propiedad_id, arrendatario_id, fecha_aplicacion, estado (pendiente, aceptada, rechazada) |
 | TD030 | Crear modelo/entidad Aplicacion y DTOs |
 | TD031 | Implementar endpoint POST /api/apply para que arrendatarios apliquen a una propiedad |
+| TD032 | Implementar validaciones (propiedad existe, arrendatario existe) |
+| TD034 | Implementar lógica para evitar múltiples aplicaciones a la misma propiedad por el mismo arrendatario |
 
 #### DEV-NF (Desarrollo No Funcional)
 | id | Descripción de tarea |
 |----|----------------------|
-| TD032 | Implementar validaciones (propiedad existe, arrendatario existe) |
 | TD033 | Implementar manejo de errores código HTTP y mensajes de error claros |
-| TD034 | Implementar lógica para evitar múltiples aplicaciones a la misma propiedad por el mismo arrendatario |
 
 ### Perspectiva QA
 #### QA-F (QA Funcional)
