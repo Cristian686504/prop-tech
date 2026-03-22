@@ -421,13 +421,13 @@
 
 #### CA002 Escenario: Cálculo de depósito de garantía para perfil de riesgo medio
 
-**Dado** que el arrendatario tiene un score crediticio entre 600 y 699 
+**Dado** que el arrendatario tiene un nivel de riesgo **medio** según la evaluación financiera realizada por el sistema
 **Cuando** el sistema calcula el depósito de garantía para una solicitud de alquiler  
 **Entonces** el depósito de garantía se establece en 2 meses de alquiler  
 
 #### CA003 Escenario: Cálculo de depósito de garantía para perfil de riesgo alto
 
-**Dado** que el arrendatario tiene un score crediticio < 600  
+**Dado** que el arrendatario tiene un nivel de riesgo **alto** según la evaluación financiera realizada por el sistema
 **Cuando** el sistema calcula el depósito de garantía para una solicitud de alquiler  
 **Entonces** el depósito de garantía se establece en 3 meses de alquiler  
 
