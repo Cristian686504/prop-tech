@@ -408,7 +408,7 @@
 - [ ] HU estimada por el equipo técnico
 
 **Como** arrendador(propietario)
-**Quiero** que el sistema calcule dinámicamente el depósito de garantía (1 a 3 meses) en base al score crediticio del arrendatario cuando aplique para alquilar mi propiedad 
+**Quiero** que el sistema calcule dinámicamente el depósito de garantía (1 a 3 meses) en base al nivel de riesgo evaluado del arrendatario cuando aplique para alquilar mi propiedad 
 **Para** proteger mi propiedad y reducir el riesgo financiero del inquilino.
 
 ### Criterios de aceptación
