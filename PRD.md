@@ -34,6 +34,11 @@ nuestro producto automatiza la evaluación financiera permitiendo decisiones seg
 
 # Riesgos de Negocio (Proyecto)
 
+**Impacto**: 1 (bajo), 2 (medio), 3 (alto)  
+**Probabilidad**: 1 (baja), 2 (media), 3 (alta)  
+**Riesgo (Impacto x Probabilidad)**: 1-2 (bajo), 3-4 (medio), 6-9 (alto)
+
+
 | Descripción | Impacto | Probabilidad | Riesgo | Mitigación |
 |------------|:---------:|:-----------:|:-------:|-----------|
 | Escasez de personal: el equipo cuenta con 2 integrantes, 1QA y 1DEV    | 3   | 3 | 9 | Solicitar la integración de más personas antes del próximo sprint |
@@ -41,6 +46,10 @@ nuestro producto automatiza la evaluación financiera permitiendo decisiones seg
 | Retrasos: los integrantes del equipo son de diferentes países y hay diferencia horaria     | 3    | 2  | 6  | Definir horarios de trabajo coincidientes y comunicación por chat |
 
 # Riesgos Técnicos (Producto)
+
+**Impacto**: 1 (bajo), 2 (medio), 3 (alto)  
+**Probabilidad**: 1 (baja), 2 (media), 3 (alta)  
+**Riesgo (Impacto x Probabilidad)**: 1-2 (bajo), 3-4 (medio), 6-9 (alto)
 
 | Descripción | Impacto | Probabilidad | Riesgo | Mitigación |
 |------------|:---------:|:-----------:|:-------:|-----------|
