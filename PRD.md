@@ -41,7 +41,7 @@ nuestro producto automatiza la evaluación financiera permitiendo decisiones seg
 
 | Descripción | Impacto | Probabilidad | Riesgo | Mitigación |
 |------------|:---------:|:-----------:|:-------:|-----------|
-| Retraso en aprobación de permisos bancarios | 3   | 3 | 9 | Iniciar gestiones lo antes posible |
+| Retraso en aprobación de permisos bancarios | 3   | 3 | 9 | Iniciar gestiones lo antes posible y considerar la utilización de mocks|
 | Estimaciones inexactas: el equipo no cuenta con experienca en este tipo de proyecto  | 3  | 3  | 9 | Estimar en base a story points |
 | Retrasos: los integrantes del equipo son de diferentes países y hay diferencia horaria     | 3    | 2  | 6  | Definir horarios de trabajo coincidientes y comunicación por chat |
 
