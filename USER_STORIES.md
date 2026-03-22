@@ -85,7 +85,7 @@
 **Cuando** envía el formulario de registro  
 **Entonces** muestra un mensaje de error indicando que los datos ingresados son inválidos y no se crea la cuenta
 
-### Story Points: 2
+### Story Points: 3
 
 ### Definition of Done
 - [ ] Código en repo — PR aprobado por al menos 1 par
