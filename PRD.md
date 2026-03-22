@@ -10,9 +10,9 @@ nuestro producto automatiza la evaluación financiera permitiendo decisiones seg
 
 # Objetivos
 
-- Aumentar la cantidad de alquileres en un 20%
-- Disminuir el riesgo de incumplimiento de contrato en un 10%
-- El flujo de alquiler tendrá una duración de menos de 1 día
+- Aumentar la cantidad de alquileres activos en un 20% reduciendo las fricciones en el flujo de contratación y la mejora de experiencia del usuario
+- Disminuir el riesgo de incumplimiento de contrato en un 10%, haciendo una validación previa a la firma donde se calcule el depósitos de garantía de forma dinámica dependiendo del resultado de un análisis del score crediticio e ingresos mensuales
+- El flujo de alquiler tendrá una duración de menos de 1 día, mediante la digitalización y automatización de las etapas clave del proceso como la validación de documentos, generación del contrato, firma electrónica y confirmación final
 
 # Alcance del MVP
 
